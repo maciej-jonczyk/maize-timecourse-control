@@ -1,0 +1,36 @@
+# 1. Nie ignoruj samego katalogu – pozwól Gitowi wejść do środka
+!input-data/
+
+# 2. Ignoruj wszystko w katalogu (domyślne zachowanie)
+input-data/**
+
+# 3. Od‑ignoruj (uwzględnij) wszystkie podkatalogi pierwszego poziomu,
+#    żeby Git mógł zajrzeć do ich wnętrza
+!/input-data/*/
+
+# 4. Teraz od‑ignoruj (uwzględnij) pliki .qmd w tych podkatalogach
+!/input-data/*/*.qmd
+!/input-data/*/*.sh
+**/rdata-saved/
+**/results/
+**/plot*
+
+# intermediate and easy to recreate files and dirs
+**/*_cache
+**/*_files
+**/*.html
+**/*.pdf
+**/*.eps
+**/*.zip
+**/.Rproj.user
+**/.RData
+**/.Rhistory
+**/.RDataTmp
+
+# graphic files
+**/*.png
+**/plotsALL*
+.Rproj.user
+
+# other
+**/x*

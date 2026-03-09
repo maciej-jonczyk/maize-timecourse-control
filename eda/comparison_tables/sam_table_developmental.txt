@@ -1,0 +1,460 @@
+ensembl	uniprot	cluster.cold	cluster.ctrl	description
+Zm00001eb002760	A0A1D6JMX4	1	6	Cytochrome P450 CYP78A55
+Zm00001eb003210	A0A804LDC6	4	6	CCT domain-containing protein
+Zm00001eb003520	A0A1D6JNE6	5	7	Subtilisin-like protease SBT1.2
+Zm00001eb005500	A0A1D6JQ58	9	8	Transcription factor PRE3
+Zm00001eb005600	C0PAF4	6	4	E3 ubiquitin ligase BIG BROTHER
+Zm00001eb008380	C0P342	6	7	Protein UPSTREAM OF FLC
+Zm00001eb008690	A0A804LG47	2	NA	Uncharacterized protein
+Zm00001eb009500	A0A1D6JU93	9	NA	Short hypocotyl in white light1
+Zm00001eb018350	C4J9J4	6	NA	RNA-binding KH domain-containing protein
+Zm00001eb021340	A0A1D6K6X8	7	4	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb031400	A0A1D6KFZ0	10	NA	Sulfurtransferase
+Zm00001eb032320	A0A1D6KGN0	7	4	Putative pentatricopeptide repeat-containing protein
+Zm00001eb037120	Q3LXA7	5	7	Retinoblastoma-related protein 3 (ZmRBR3)
+Zm00001eb037700	B6SKK3	5	7	DNA polymerase epsilon subunit (DNA polymerase II subunit 2)
+Zm00001eb039870	A0A804LVM1	2	NA	Uncharacterized protein
+Zm00001eb039880	A0A804LVM2	2	1	DUF241 domain protein
+Zm00001eb039930	B6U6K4	4	NA	Uncharacterized protein
+Zm00001eb041470	A0A1D6KP33	3	NA	Polypyrimidine tract-binding protein homolog 1
+Zm00001eb043930	C4JA66	4	NA	Aspergillus nuclease S1 (EC 3.1.30.1)
+Zm00001eb045640	C0HDR1	7	4	Auxin response factor
+Zm00001eb049610	C0PFU3	7	4	Guanine nucleotide-binding protein-like NSN1
+Zm00001eb052070	C4J2M4	6	7	Growth-regulating factor
+Zm00001eb058550	A0A1D6L619	8	NA	CCG-binding protein 1
+Zm00001eb064610	A0A804M7G6	6	7	FRIGIDA-like protein
+Zm00001eb065780	A0A1D6DSU2	5	NA	K(+) efflux antiporter 2 chloroplastic
+Zm00001eb068240	A0A1D6DW00	7	NA	Alpha-N-acetylglucosaminidase (EC 3.2.1.50)
+Zm00001eb071830	A0A1D6E0P2	6	7	Growth-regulating factor
+Zm00001eb075200	A0A1D6E4E3	4	5	Metal-nicotianamine transporter YSL2
+Zm00001eb075210	A0A804MCH5	4	NA	OJ000126_13.10 protein
+Zm00001eb080110	A0A804MEV2	1	5	Cytochrome P450 724B1 ((22S)-22-hydroxycampesterol synthase)
+Zm00001eb087670	B6SKC6	6	6	RING-type E3 ubiquitin transferase (EC 2.3.2.27)
+Zm00001eb094390	B4FTU1	9	1	FRIGIDA-like protein
+Zm00001eb094880	A0A1D6EKY0	4	NA	sterol 3beta-glucosyltransferase (EC 2.4.1.173)
+Zm00001eb097790	A0A1D6ENT5	3	NA	leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase)
+Zm00001eb102420	A0A804MPN7	7	4	HORMA domain-containing protein
+Zm00001eb103310	A0A8J8XC71	1	NA	Cytochrome P450 family 78 subfamily A polypeptide 8
+Zm00001eb105710	C4J0D0	6	NA	Hydrolase/ protein serine/threonine phosphatase
+Zm00001eb109820	A0A1D6F243	6	NA	Myb domain protein 88
+Zm00001eb111910	A0A1D6F4V9	6	NA	26S proteasome regulatory subunit 4 homolog A
+Zm00001eb115530	A0A1D6F7V5	8	NA	Nodulin homeobox
+Zm00001eb115560	A0A804MVW4	8	NA	Nodulin homeobox homeobox-like domain-containing protein
+Zm00001eb116590	B6TRJ7	9	8	Splicing factor U2af 38 kDa subunit (Splicing factor U2af small subunit A)
+Zm00001eb117030	A0A1D6F978	9	8	FRIGIDA-like protein
+Zm00001eb120710	A0A1D6MHD4	3	3	Agamous-like MADS-box protein AGL5
+Zm00001eb120890	C4IZQ0	4	NA	Cytochrome P450 90D2 (3-dehydro-6-deoxoteasterone synthase)
+Zm00001eb122920	C0PH62	5	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb124790	A0A1D6MLR7	3	3	MADS-box transcription factor 56
+Zm00001eb127820	B6U460	1	3	FPF1
+Zm00001eb131510	A0A1D6MSZ3	1	NA	Exocyst complex component
+Zm00001eb134520	C0PJE0	6	NA	Putative axial regulator YABBY 2
+Zm00001eb140700	A0A804N7E9	10	8	Amidohydrolase 3 domain-containing protein
+Zm00001eb142180	A0A804N818	6	NA	Luminidependens protein1
+Zm00001eb144760	A0A1D6N4X3	5	7	60S ribosomal protein L5-1 homolog a
+Zm00001eb144770	C4J4B7	7	4	Rhodanese/Cell cycle control phosphatase superfamily protein
+Zm00001eb146780	A0A1D6N6H1	2	1	Actin-1
+Zm00001eb148360	A0A804NB49	8	NA	FAS1 domain-containing protein
+Zm00001eb148750	A0A1D6N7N8	1	NA	CCT motif family protein
+Zm00001eb153000	C4PJN4	1	6	Carotenoid cleavage dioxygenase
+Zm00001eb153520	B8A2B3	4	6	Transcription factor VOZ1
+Zm00001eb153710	B6SP44	9	NA	glutamate carboxypeptidase II (EC 3.4.17.21)
+Zm00001eb154730	A0A1D6NDP8	5	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb157150	A0A1D6NG47	5	7	1,3-beta-glucan synthase (EC 2.4.1.34) (1,3-beta-glucan synthase)
+Zm00001eb159140	C0P571	6	NA	Glycerol-3-phosphate acyltransferase 1
+Zm00001eb163070	A0A1D6NP15	6	NA	Nucleoporin autopeptidase
+Zm00001eb164030	B4G1W8	5	7	Myosin-like protein (Protein FLX-like 3)
+Zm00001eb167820	C0P3M9	4	NA	Leucine-rich receptor-like protein kinase family protein
+Zm00001eb169890	K7TW19	1	NA	p21-Rho-binding domain containing protein
+Zm00001eb170050	A0A804NLS5	4	NA	Uncharacterized protein
+Zm00001eb170520	K7TSH2	10	8	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb170920	C0PJC1	9	NA	Orphans transcription factor (Zinc finger protein CONSTANS-LIKE 5)
+Zm00001eb175830	A0A804NPD9	8	2	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)
+Zm00001eb181410	A8WER4	3	NA	ZCN2
+Zm00001eb181570	A0A979HK26	1	NA	Uncharacterized protein
+Zm00001eb185290	D9HNU2	10	NA	Auxin response factor
+Zm00001eb188840	A0A1D6Q8H7	7	NA	AT-hook motif nuclear-localized protein 29
+Zm00001eb191940	C0PFJ8	1	5	GATA transcription factor 8
+Zm00001eb192940	A0A1D6QD78	5	7	Protein TONSOKU
+Zm00001eb193490	K7UKV2	10	NA	Protein CPR-5
+Zm00001eb196710	B6TUW8	9	8	Phytosulfokine [Cleaved into: Phytosulfokine-alpha (PSK-alpha) (Phytosulfokine-a); Phytosulfokine-beta (PSK-beta) (Phytosulfokine-b)]
+Zm00001eb200140	K7U8D7	6	NA	Sialyltransferase-like protein 1
+Zm00001eb204920	B4F9G4	6	NA	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb210970	C0PGC5	3	6	Shaggy-related protein kinase kappa
+Zm00001eb212930	B6U846	4	NA	BHLH transcription factor (Transcription factor bHLH7)
+Zm00001eb213580	A0A804P7I9	9	NA	Pentatricopeptide repeat-containing protein
+Zm00001eb213770	A0A1D6GGA2	5	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb215430	A0A804P8B6	5	7	Pep3/Vps18/deep orange beta-propeller domain-containing protein
+Zm00001eb216880	A0A804P8V8	5	NA	Oleosin
+Zm00001eb218500	B4FY22	5	7	C2C2-YABBY transcription factor
+Zm00001eb219400	A0A1D6GM04	6	NA	FRIGIDA-like protein
+Zm00001eb220480	B6SI11	4	5	Actin-1
+Zm00001eb223090	C0PLM1	10	NA	Leucine-rich repeat-containing N-terminal plant-type domain-containing protein
+Zm00001eb228140	P0DL10	4	6	Leucine-rich repeat receptor-like kinase protein THICK TASSEL DWARF1 (EC 2.7.11.1) (CLAVATA1-like protein) (CLV1 related kinase 5) (ZmKIN5)
+Zm00001eb230130	Q2WBH7	3	3	Sialyltransferase-like protein
+Zm00001eb230310	C0HG18	7	4	Glutamate--tRNA ligase, chloroplastic/mitochondrial (EC 6.1.1.17) (Glutamyl-tRNA synthetase)
+Zm00001eb231080	A0A804PEC4	9	NA	Pentatricopeptide repeat-containing protein
+Zm00001eb236120	A0A060D6F1	4	6	GRAS transcription factor (Scarecrow-like protein 18)
+Zm00001eb238230	B4FVL9	4	6	AT-rich element binding factor 3 (Abscisic acid receptor PYL10) (Abscisic acid receptor PYL9) (Pyrabactin resistance-like protein)
+Zm00001eb238350	B4FUV5	2	1	AT-hook motif nuclear-localized protein 26
+Zm00001eb238890	B7ZX00	3	NA	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb242750	A0A1D6H9X6	1	NA	Germin-like protein
+Zm00001eb246990	A0A804PLC3	6	NA	Sister chromatid cohesion protein PDS5 B-B
+Zm00001eb247000	Q38JE7	9	8	Temperature-induced lipocalin-1
+Zm00001eb248640	B4FG85	5	7	Axial regulator YABBY 1 (Yabby15 protein)
+Zm00001eb249020	A0A1D6HET4	4	6	Iron-phytosiderophore transporter yellow stripe 1
+Zm00001eb250150	A0A804PLD9	1	NA	DUF241 domain protein
+Zm00001eb253390	B8A2N9	10	NA	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb260800	G8H382	1	3	ARGOS5 (Auxin regulated gene involved in organ size 5)
+Zm00001eb263050	A0A804PR05	2	1	Uncharacterized protein
+Zm00001eb267510	A0A1D6LIJ7	5	7	Vacuolar sorting protein 39
+Zm00001eb269110	A0A804PSE5	7	4	CYCLOPS
+Zm00001eb269300	A0A804PSY1	7	1	RING-type domain-containing protein
+Zm00001eb274370	A0A1D6LQ48	8	2	F10K1.23
+Zm00001eb277790	B4FBK2	7	4	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb280280	B6SWS1	4	6	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb280900	A0A1D6LX93	6	NA	Binding
+Zm00001eb282310	A0A1D6LYR1	5	NA	arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase)
+Zm00001eb282920	A0A1D6LZE9	9	NA	FACT complex subunit SSRP1
+Zm00001eb284090	A0A1D6M079	3	3	Cytochrome P450 90D2 (3-dehydro-6-deoxoteasterone synthase)
+Zm00001eb287100	A0A804Q2A9	6	7	AP2/ERF domain-containing protein
+Zm00001eb287560	A0A1D6M3P4	9	NA	Germin-like protein
+Zm00001eb295080	C0P4K3	5	7	Putative histone chaperone ASF1A
+Zm00001eb295220	A0A804Q3E6	2	1	glutamate synthase (NADH) (EC 1.4.1.14)
+Zm00001eb295840	B4FDU4	6	2	E3 SUMO-protein ligase MMS21
+Zm00001eb296410	A0A1D6MDD2	6	6	Protein SUPPRESSOR OF PHYA-105 1
+Zm00001eb298610	B4FNN7	6	NA	Protein KTI12 homolog
+Zm00001eb299510	A0A1D6HRX7	8	2	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb300090	A0A1D6HSI6	5	7	Transcription factor TCP2
+Zm00001eb300710	A0A804Q483	5	NA	histone deacetylase (EC 3.5.1.98)
+Zm00001eb309960	A0A1D6I259	5	7	Pentatricopeptide repeat-containing protein
+Zm00001eb316870	B4FQ72	4	5	Splicing factor U2af small subunit A
+Zm00001eb318880	C0PFR0	6	7	Flap endonuclease GEN-like 1
+Zm00001eb322970	C0HH83	4	6	Uncharacterized protein
+Zm00001eb324600	A0A060CZ17	1	NA	GRAS transcription factor (Nodulation signaling pathway 2 protein)
+Zm00001eb326410	C0P6D0	5	7	FRIGIDA-like protein
+Zm00001eb326930	A0A1D6IJ10	9	NA	Protein LONGIFOLIA 2
+Zm00001eb326950	A0A1D6IJ14	9	NA	Cytochrome P-450 17
+Zm00001eb333280	K7UP46	5	NA	Empty pericarp7
+Zm00001eb333480	K7VP08	1	NA	FPF1
+Zm00001eb334160	A0A804UFA1	9	NA	NAC domain-containing protein
+Zm00001eb334790	A0A1D6FD96	5	7	leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase)
+Zm00001eb336730	K7VAP2	5	NA	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb344160	A0A804QQC8	4	NA	WRKY domain-containing protein
+Zm00001eb345420	K7UTZ2	5	NA	RNA helicase (EC 3.6.4.13) (API5-interacting protein 1)
+Zm00001eb350150	K7UZY9	1	NA	Protein UPSTREAM OF FLC
+Zm00001eb353760	B4FTS9	8	NA	AtS40-3
+Zm00001eb356300	C4J505	4	5	Cytochrome P450 family 722 subfamily A polypeptide 1
+Zm00001eb358940	C0P4R7	5	7	Glycerol-3-phosphate acyltransferase 1
+Zm00001eb361390	A0A1D6G382	5	7	Putative B3 DNA binding domain family protein
+Zm00001eb361760	A0A804QW69	2	1	Protein kinase domain-containing protein
+Zm00001eb362260	B6TLC8	1	NA	Cysteine protease XCP1 (Xylem cysteine proteinase 2)
+Zm00001eb363310	A0A1D6G4R3	5	7	RNA-binding protein BRN1
+Zm00001eb365710	C4JA45	5	7	60S ribosomal protein L5-1 homolog b
+Zm00001eb366720	B6SZ83	4	4	Actin-1
+Zm00001eb367930	A0A1D6G8M6	2	NA	ROTUNDIFOLIA like 8
+Zm00001eb372610	A0A804UIJ5	3	NA	MADS-box domain-containing protein
+Zm00001eb373420	K7W567	6	NA	Aminotransferase-like plant mobile domain family protein
+Zm00001eb378810	B4G1P0	9	NA	Elongator complex protein 6
+Zm00001eb379720	A0A804QYW2	3	6	Transcription factor VOZ1
+Zm00001eb381980	A0A804R5Z0	1	NA	AT-hook motif nuclear-localized protein
+Zm00001eb388460	A0A804R6M3	1	NA	Protein MONOCULM 1
+Zm00001eb391750	K7WCC7	5	7	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase MurE homolog, chloroplastic (ZmMURE)
+Zm00001eb392030	C4J969	9	8	Uncharacterized protein
+Zm00001eb397260	A0A804UKF1	9	5	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+Zm00001eb400030	A0A1D6PGV0	6	3	Protein OBERON 4
+Zm00001eb400130	C4J928	2	7	DL related protein (Drooping leaf ortholog2)
+Zm00001eb402160	A0A1D6PJ52	5	7	Putative thaumatin domain family protein
+Zm00001eb402810	B4FFD4	4	NA	CCT motif family protein (Orphans transcription factor)
+Zm00001eb402830	K7VHH0	10	8	glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase)
+Zm00001eb406480	C4JBM1	8	NA	Phytosulfokine [Cleaved into: Phytosulfokine-alpha (PSK-alpha) (Phytosulfokine-a); Phytosulfokine-beta (PSK-beta) (Phytosulfokine-b)]
+Zm00001eb407970	A0A1D6IU37	9	8	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb410800	K7UD91	9	1	Auxin-binding protein 5
+Zm00001eb417090	C4J9C7	7	4	protein-tyrosine-phosphatase (EC 3.1.3.48)
+Zm00001eb417150	B7ZX64	6	7	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+Zm00001eb419430	K7UH69	1	5	Putative leucine-rich repeat receptor protein kinase family protein
+Zm00001eb419620	A0A1D6J480	6	NA	RING-type E3 ubiquitin transferase (EC 2.3.2.27)
+Zm00001eb421200	C4J5H7	1	NA	Beta-13-N-Acetylglucosaminyltransferase family protein
+Zm00001eb424050	C0PJC4	2	NA	BZIP domain-containing protein
+Zm00001eb427470	A0A804UMI2	5	7	Protein YABBY 5
+Zm00001eb433460	A0A1D6JHT6	3	3	Auxin response factor
+Zm00001eb000200	B6SHN1	NA	4	Oleosin
+Zm00001eb000540	A0A804LBZ9	NA	7	Protein PAIR1
+Zm00001eb001630	A0A804LCL4	NA	7	BHLH domain-containing protein
+Zm00001eb002520	A0A1D6JMR7	NA	2	60S ribosomal protein L5-1
+Zm00001eb002930	A0A1D6JMZ4	NA	7	Pentatricopeptide repeat-containing protein chloroplastic
+Zm00001eb003660	A0A1D6JNI1	NA	1	Leucine-rich repeat receptor-like protein kinase PXL1
+Zm00001eb004710	A0A804LE26	NA	7	Flavin-containing monooxygenase (EC 1.-.-.-)
+Zm00001eb008240	A0A1D6JSH7	NA	7	Plant mobile domain protein family
+Zm00001eb008680	B6T6E1	NA	7	C2C2-YABBY transcription factor (DL related protein) (Drooping leaf ortholog1) (Protein DROOPING LEAF)
+Zm00001eb008740	C4J1W8	NA	4	Zinc finger protein 8
+Zm00001eb010160	A0A1D6JVI1	NA	6	Protein OBERON 3
+Zm00001eb010280	A0A804LGX2	NA	3	TSL-kinase interacting protein 1
+Zm00001eb012880	A0A804LI88	NA	2	ABC transporter G family member 5 (White-brown complex homolog protein 5)
+Zm00001eb015500	A0A804LJI4	NA	6	Homeobox domain-containing protein
+Zm00001eb019420	A0A1D6K593	NA	6	1-phosphatidylinositol-3-phosphate 5-kinase (EC 2.7.1.150) (FYVE finger-containing phosphoinositide kinase) (PIKfyve) (Phosphatidylinositol 3-phosphate 5-kinase type III)
+Zm00001eb020850	A0A060CVM9	NA	3	GRAS transcription factor (Protein SHORT-ROOT)
+Zm00001eb022250	A0A804LMQ8	NA	7	Pentatricopeptide repeat-containing protein
+Zm00001eb023330	A0A1D6K8G2	NA	7	GATA transcription factor 2
+Zm00001eb024070	A0A1D6K8V5	NA	7	Pentatricopeptide repeat-containing protein
+Zm00001eb024150	A0A804LNK0	NA	3	VAN3-binding protein
+Zm00001eb024740	B6TX99	NA	7	FAD-binding domain-containing protein
+Zm00001eb026010	A0A317YCL1	NA	8	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb026560	A0A804LPN1	NA	8	Serine-threonine/tyrosine-protein kinase catalytic domain-containing protein
+Zm00001eb030480	A0A1D6KEX9	NA	7	Vegetative storage protein
+Zm00001eb032370	A0A1D6KGN8	NA	2	GATA zinc finger family protein
+Zm00001eb032920	A0A1D6KGV0	NA	7	Epidermal patterning factor-like protein
+Zm00001eb035030	A0A1D6KIX0	NA	7	SBP-domain protein 5 (Unbranched2)
+Zm00001eb039020	A0A1D6KM68	NA	8	Protein UPSTREAM OF FLC
+Zm00001eb040240	B6SY44	NA	2	Cytochrome P450 CYP78A53
+Zm00001eb041050	A0A1D6KNR0	NA	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb041540	A0A1D6KP56	NA	7	Myb domain protein 106
+Zm00001eb041850	Q9FYS5	NA	7	HMG-Y-related protein A (ZmHMGA) (High mobility group A protein)
+Zm00001eb041890	A0A804LWM3	NA	7	Myb-like domain-containing protein
+Zm00001eb043940	Q7X9M6	NA	7	C2C2-YABBY-transcription factor 12 (Yabby10 protein)
+Zm00001eb044710	A0A804LY41	NA	7	DNA-directed RNA polymerase subunit beta (EC 2.7.7.6)
+Zm00001eb047560	B4FA01	NA	7	Pentatricopeptide repeat-containing protein
+Zm00001eb047750	O65215	NA	4	Zinc finger protein ID1
+Zm00001eb048150	A0A1D6KVC0	NA	7	Glycerol-3-phosphate acyltransferase 5
+Zm00001eb048540	A0A1D6KVT1	NA	3	Cytochrome P450 CYP78A1
+Zm00001eb051310	B4FJW0	NA	7	G2-like transcription factor
+Zm00001eb055900	A0A804M382	NA	2	Epidermal patterning factor-like protein
+Zm00001eb055950	C0HEY9	NA	5	1-aminocyclopropane-1-carboxylate synthase (EC 4.4.1.14)
+Zm00001eb056050	B6U8T2	NA	7	Growth-regulating factor
+Zm00001eb056300	A5HEH4	NA	7	GRF-interacting factor 1 (ZmGIF1) (Protein ANGUSTIFOLIA 3 homolog)
+Zm00001eb056350	A0A804M3G0	NA	7	Pep3/Vps18/deep orange beta-propeller domain-containing protein
+Zm00001eb058150	A0A1D6L5J9	NA	7	Subtilisin-like protease
+Zm00001eb058860	A0A1D6L670	NA	7	Putative xyloglucan glycosyltransferase 12
+Zm00001eb059050	A0A1D6L6A5	NA	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb059920	C0PGB1	NA	7	TCP transcription factor (Transcription factor TCP2)
+Zm00001eb060230	A0A804M5A1	NA	7	GATA-type domain-containing protein
+Zm00001eb062680	A0A1D6L9Y0	NA	6	protein-serine/threonine phosphatase (EC 3.1.3.16)
+Zm00001eb063720	B4FVB1	NA	3	Actin-1
+Zm00001eb064420	A0A804M7C5	NA	8	CRIB domain-containing protein
+Zm00001eb066640	A0A1D6DTV9	NA	7	Auxin response factor
+Zm00001eb067180	A0A804M8Q1	NA	1	leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase)
+Zm00001eb067270	D9HNT1	NA	7	Auxin response factor
+Zm00001eb068540	C0PE77	NA	6	RING-type E3 ubiquitin transferase (EC 2.3.2.27)
+Zm00001eb068880	A0A1D6DWQ9	NA	8	ABC transporter B family member 19
+Zm00001eb070050	A0A1D6DXQ9	NA	7	Homeodomain leucine zipper family IV protein
+Zm00001eb071990	A0A1D6E0T2	NA	7	Floricaula/leafy-like transcription factor
+Zm00001eb074640	A0A1D6E3X3	NA	6	Carotenoid cleavage dioxygenase7
+Zm00001eb075520	B4FF18	NA	7	Axial regulator YABBY 1
+Zm00001eb075810	B6TKK5	NA	3	Beta-expansin 3 (Expansin-B3)
+Zm00001eb078170	A0A1D6E6U6	NA	7	Sister chromatid cohesion protein PDS5 B-B
+Zm00001eb078440	O24575	NA	5	S-adenosylmethionine decarboxylase proenzyme (AdoMetDC) (SAMDC) (EC 4.1.1.50) [Cleaved into: S-adenosylmethionine decarboxylase alpha chain; S-adenosylmethionine decarboxylase beta chain]
+Zm00001eb080690	A0A1D6E944	NA	7	P-type R2R3 Myb protein
+Zm00001eb092070	C0HDZ6	NA	1	Actin-1
+Zm00001eb092480	Q70UV1	NA	7	WUSCHEL-related homeobox 3A (Narrow sheath protein 1)
+Zm00001eb093200	A0A060CZD5	NA	7	Regulatory protein NPR5 (TRAF transcription factor)
+Zm00001eb093560	B4FM46	NA	1	AP2-EREBP transcription factor
+Zm00001eb093670	A0A1D6EIU2	NA	7	Protein SCARECROW
+Zm00001eb095370	A0A1D6ELC9	NA	1	Leucine-rich repeat receptor-like tyrosine-protein kinase PXC3
+Zm00001eb095640	A0A1D6ELK5	NA	7	Protein LONGIFOLIA 2
+Zm00001eb099470	A0A804MNA3	NA	3	BHLH domain-containing protein
+Zm00001eb099520	C0HDW4	NA	7	Aminotransferase-like plant mobile domain-containing protein
+Zm00001eb103090	A0A1D6ETB7	NA	7	Flap endonuclease GEN-like 1
+Zm00001eb108320	B4FAW4	NA	4	FRIGIDA-like protein
+Zm00001eb111110	A0A1D6F436	NA	6	FPF1-like protein 1
+Zm00001eb111890	A0A1D6F4U5	NA	8	D-alanine--D-alanine ligase family
+Zm00001eb112430	A0A1D6F564	NA	5	ARGOS homolog3
+Zm00001eb113470	A0A1D6F691	NA	6	Retinoblastoma-related protein 1
+Zm00001eb113950	C0HG25	NA	7	Growth-regulating factor
+Zm00001eb114080	A0A1D6F6Q3	NA	8	Phytosulfokine [Cleaved into: Phytosulfokine-alpha (PSK-alpha) (Phytosulfokine-a); Phytosulfokine-beta (PSK-beta) (Phytosulfokine-b)]
+Zm00001eb115600	A0A804MVW8	NA	4	Nodulin homeobox
+Zm00001eb115970	A0A1D6F8B0	NA	3	Glycerol-3-phosphate acyltransferase 3 (Putative glycerol-3-phosphate acyltransferase 2)
+Zm00001eb117560	A0A1D6F9D0	NA	7	Transcription factor TCP2
+Zm00001eb119240	A0A804MXK8	NA	6	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb124060	A0A1D6ML90	NA	1	Receptor kinase-like protein Xa21 (EC 2.7.11.1)
+Zm00001eb131520	B4F9H0	NA	6	RING/U-box superfamily protein
+Zm00001eb135860	B4FW77	NA	7	Pentatricopeptide repeat-containing protein mitochondrial
+Zm00001eb136910	A0A1D6MX77	NA	8	Putative glycerol-3-phosphate acyltransferase 2
+Zm00001eb137840	G1FMQ3	NA	2	Auxin-binding protein
+Zm00001eb143370	A0A1D6N363	NA	2	Protein root UVB sensitive 1 chloroplastic
+Zm00001eb143570	A0A804N8S5	NA	7	Stomagen C-terminal domain-containing protein
+Zm00001eb145660	Q9AR51	NA	6	Floral homeotic protein PISTILLATA (Putative MADS-domain transcription factor)
+Zm00001eb147550	C0PH80	NA	7	Phospholipid/glycerol acyltransferase domain-containing protein
+Zm00001eb147630	A8Y7W0	NA	2	Putative wuschel homeobox protein
+Zm00001eb149400	B6U780	NA	7	Epidermal patterning factor-like protein
+Zm00001eb150140	B4F9Y7	NA	6	Transcription factor GAMYB (OsGAMyb)
+Zm00001eb151090	B4FX49	NA	5	Protein kinase superfamily protein
+Zm00001eb152090	A0A1D6NAN7	NA	1	Putative xyloglucan glycosyltransferase 12
+Zm00001eb153590	B4FMT8	NA	7	tryptophan--tRNA ligase (EC 6.1.1.2) (Tryptophanyl-tRNA synthetase)
+Zm00001eb157620	A0A1D6NGI0	NA	7	GATA transcription factor 19
+Zm00001eb161540	A0A804NHT1	NA	4	Pyrrolo-quinoline quinone repeat domain-containing protein
+Zm00001eb165460	K7U8Q7	NA	5	ATA15 protein
+Zm00001eb168670	A0A804NL26	NA	3	1-phosphatidylinositol 4-kinase (EC 2.7.1.67)
+Zm00001eb170830	K7TSM8	NA	5	Xyloglucan glycosyltransferase 4
+Zm00001eb171720	C0PDK7	NA	7	HB transcription factor (Homeobox-leucine zipper protein MERISTEM L1) (Homeodomain leucine zipper family IV protein)
+Zm00001eb172020	K7TT56	NA	6	Nuclear transcription factor Y subunit B-3
+Zm00001eb172240	C4JBW4	NA	6	Putative MYB DNA-binding domain superfamily protein
+Zm00001eb173960	K7TXH9	NA	8	Putative NAC domain transcription factor superfamily protein
+Zm00001eb175850	B7ZYL3	NA	4	Protein UPSTREAM OF FLC
+Zm00001eb177150	K7UTX1	NA	6	1-phosphatidylinositol-3-phosphate 5-kinase (EC 2.7.1.150) (FYVE finger-containing phosphoinositide kinase) (PIKfyve) (Phosphatidylinositol 3-phosphate 5-kinase type III)
+Zm00001eb179290	A0A804NQZ7	NA	8	Myb-like domain-containing protein
+Zm00001eb183490	K7UGA3	NA	7	Armadillo repeat-containing protein LFR
+Zm00001eb184050	Q940E8	NA	3	Leucine-rich repeat receptor-like protein FASCIATED EAR2 (CLAVATA2-like protein)
+Zm00001eb186820	B4FRF0	NA	6	Glutathione peroxidase
+Zm00001eb187720	K7TZI1	NA	4	Putative HLH DNA-binding domain superfamily protein
+Zm00001eb189910	K7UJ45	NA	6	methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase)
+Zm00001eb192730	A0A1D6QCK6	NA	7	mitogen-activated protein kinase kinase (EC 2.7.12.2)
+Zm00001eb193180	A0A804NXA3	NA	7	Growth-regulating factor
+Zm00001eb193190	C0PFF9	NA	1	Replication protein A subunit
+Zm00001eb194040	A0A804NXN3	NA	7	Epidermal patterning factor-like protein
+Zm00001eb194680	Q94JP1	NA	3	Putative Rop family GTPase ROP8 (Rho-related protein from plants 8)
+Zm00001eb195650	Q9FUZ7	NA	7	Protein SCARECROW (ZmSCR)
+Zm00001eb196470	A0A804NYV9	NA	7	Regulatory protein NPR central domain-containing protein
+Zm00001eb197990	A0A804NZH9	NA	6	Retinoblastoma-related protein 2
+Zm00001eb198700	B6T1S6	NA	7	HMG transcription factor (HMG1/2-like protein) (Nucleosome/chromatin assembly factor D)
+Zm00001eb200540	A0A804P0T2	NA	5	Epidermal patterning factor-like protein
+Zm00001eb201940	B6SYY5	NA	7	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+Zm00001eb202640	A0A804P1U3	NA	3	Protein kinase domain-containing protein
+Zm00001eb202670	K7V4N7	NA	1	Putative MYB DNA-binding domain superfamily protein
+Zm00001eb204110	B4FIG3	NA	7	BHLH transcription factor (Transcription factor SPEECHLESS)
+Zm00001eb204180	B4FD84	NA	6	Abscisic acid receptor PYL9 (Pyrabactin resistance-like protein)
+Zm00001eb208200	B4G0A3	NA	6	Transcription factor ABORTED MICROSPORES
+Zm00001eb210540	B6SGY5	NA	8	RNA binding protein
+Zm00001eb210980	B4FC73	NA	6	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb212450	B4FZT4	NA	8	endo-polygalacturonase (EC 3.2.1.15)
+Zm00001eb213430	A0A1D6GG32	NA	7	Transcription factor TCP2
+Zm00001eb213830	A0A1D6GGB0	NA	2	Putative xyloglucan glycosyltransferase 12
+Zm00001eb215560	A0A1D6GI93	NA	8	Growth-regulating factor
+Zm00001eb216070	B6TQ08	NA	7	Actin-1
+Zm00001eb219540	A0A1D6GM24	NA	8	Receptor kinase-like protein Xa21 (EC 2.7.11.1)
+Zm00001eb220660	A0A060D1X1	NA	7	C2C2-YABBY transcription factor (Yabby9 protein)
+Zm00001eb221620	D9HNU4	NA	3	Auxin response factor
+Zm00001eb222460	A0A804PB31	NA	7	Actin-related protein 7
+Zm00001eb222480	A0A804PB66	NA	8	Uncharacterized protein
+Zm00001eb229700	A0A1D6GYD2	NA	1	Leucine-rich repeat receptor-like protein kinase PXL1
+Zm00001eb230300	A0A804PE20	NA	3	Uncharacterized protein
+Zm00001eb232190	A0A1D6H0S3	NA	5	dolichol kinase (EC 2.7.1.108)
+Zm00001eb233790	A0A1D6H2A1	NA	5	Zinc finger protein CONSTANS-LIKE 5
+Zm00001eb235640	B6T5Z6	NA	7	Ethylene-responsive transcription factor WIN1 (Ethylene-responsive element-binding protein 46) (AP2-EREBP transcription factor 46) (ZmEREB46)
+Zm00001eb238140	C0HGX9	NA	7	BHLH transcription factor (Transcription factor SPEECHLESS)
+Zm00001eb238670	Q9SAZ6	NA	4	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb245040	A0A1D6HBE4	NA	7	DNA binding protein
+Zm00001eb248780	A0A060D1W5	NA	7	C2C2-GATA transcription factor (GATA binding protein 3) (GATA zinc finger family protein)
+Zm00001eb250620	A0A1D6HFX6	NA	7	Growth-regulating factor
+Zm00001eb251200	B4FD44	NA	7	BHLH domain-containing protein
+Zm00001eb251820	A0A060D764	NA	7	Growth-regulating factor 1 (ZmGRF1) (Growth-regulating factor 6)
+Zm00001eb252250	A0A1D6HHN9	NA	5	Phosphoribulokinase / Uridine kinase family
+Zm00001eb254560	A0A804PP47	NA	5	NAC domain-containing protein
+Zm00001eb257680	C4J9Q2	NA	6	Snf1-related kinase interacting protein SKI1
+Zm00001eb258290	A0A060D417	NA	1	C2C2-GATA transcription factor (GATA transcription factor 8)
+Zm00001eb260550	A0A804PQD3	NA	7	Pentatricopeptide repeat-containing protein
+Zm00001eb265610	A0A804PS71	NA	6	AP2/ERF domain-containing protein
+Zm00001eb265710	A8Y7V7	NA	7	HB transcription factor (Putative wuschel homeobox protein) (WUSCHEL-related homeobox 3)
+Zm00001eb267280	B4F989	NA	8	Actin-1
+Zm00001eb269100	A0A1D6LJW6	NA	1	DNA-directed RNA polymerase subunit beta (EC 2.7.7.6)
+Zm00001eb269150	A0A804PSW3	NA	7	Growth-regulating factor
+Zm00001eb271490	Q8S4P6	NA	7	Histone-lysine N-methyltransferase EZ1 (EC 2.1.1.356) (Enhancer of zeste protein 1)
+Zm00001eb271900	A0A1D6LM26	NA	7	1,3-beta-glucan synthase (EC 2.4.1.34) (1,3-beta-glucan synthase)
+Zm00001eb273620	C0P9J3	NA	7	SWAP (Suppressor-of-White-APricot)/surp RNA-binding domain-containing protein
+Zm00001eb275580	A0A804PVH8	NA	5	Uncharacterized protein
+Zm00001eb278470	A0A1D6LTW8	NA	6	Putative HLH DNA-binding domain superfamily protein isoform 1
+Zm00001eb278670	A0A1D6LUN9	NA	7	Growth-regulating factor
+Zm00001eb278830	A0A1D6LUT5	NA	7	Zinc finger protein 8
+Zm00001eb282650	Q41808	NA	1	Tubulin gamma-2 chain (Gamma-2-tubulin)
+Zm00001eb283380	A0A1D6LZP0	NA	7	LRR receptor-like serine/threonine-protein kinase GSO1
+Zm00001eb283400	A0A1D6LZP2	NA	5	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb283810	B4FSI0	NA	6	Abscisic acid receptor PYL9 (CAPIP1)
+Zm00001eb285190	A0A1D6M1E8	NA	7	RNA-binding protein BRN1
+Zm00001eb287800	A0A1D6M449	NA	6	Putative GID1-like gibberellin receptor
+Zm00001eb290530	A0A1D6M6J0	NA	7	Epidermal patterning factor-like protein
+Zm00001eb292740	A0A1D6M9U6	NA	7	Rho-related protein6
+Zm00001eb295920	A8Y7W3	NA	7	Putative wuschel homeobox protein
+Zm00001eb297870	C0P6E9	NA	5	CCT motif family protein (Orphans transcription factor)
+Zm00001eb300360	B6TDT4	NA	7	C2C2-YABBY transcription factor (Protein YABBY)
+Zm00001eb301520	B4FMK3	NA	6	BHLH transcription factor (Transcription factor bHLH7)
+Zm00001eb302190	B6U670	NA	4	PHD transcription factor (SHL1)
+Zm00001eb303810	C0P4Y8	NA	5	Sister of indeterminate spikelet1
+Zm00001eb303990	A0A096T2V8	NA	1	Protein RETICULATA chloroplastic
+Zm00001eb305600	A0A1D6HXI2	NA	5	CO(2)-response secreted protease
+Zm00001eb305840	A0A1D6HXQ0	NA	7	Adenylate kinase isoenzyme 6 homolog (AK6) (EC 2.7.4.3) (Dual activity adenylate kinase/ATPase) (AK/ATPase)
+Zm00001eb307100	A0A804Q7W5	NA	3	Inositol polyphosphate-related phosphatase domain-containing protein
+Zm00001eb309660	A0A1D6I1V3	NA	3	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb311960	A0A1D6I3X2	NA	7	Milkweed pod1
+Zm00001eb312160	A0A1D6I407	NA	4	Typical P-type R2R3 Myb protein
+Zm00001eb313390	B8A123	NA	1	adenosylmethionine decarboxylase (EC 4.1.1.50)
+Zm00001eb316510	B6ST76	NA	4	Phospholipase A2, group IVB isoform 6
+Zm00001eb319620	B4FXD3	NA	5	Protein ODORANT1
+Zm00001eb326020	C0PGA9	NA	7	GRAS transcription factor (Protein SHORT-ROOT)
+Zm00001eb326030	B4FA71	NA	4	Glycosyltransferase (EC 2.4.2.-)
+Zm00001eb327780	B6T7P7	NA	6	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb327820	B6SXH5	NA	8	Putative pentatricopeptide repeat-containing protein
+Zm00001eb330990	A0A1D6INR9	NA	5	WUSCHEL-related homeobox 11
+Zm00001eb333300	A0A1D6FBJ6	NA	3	Peroxidase (EC 1.11.1.7)
+Zm00001eb336020	K7UUB6	NA	2	Receptor kinase-like protein Xa21 (EC 2.7.11.1)
+Zm00001eb341010	K7VC94	NA	5	Exocyst complex component
+Zm00001eb343080	K7UX39	NA	7	Putative histone chaperone ASF1A
+Zm00001eb343760	K7V1E2	NA	7	C3H transcription factor (Splicing factor U2af subunit isoform 1)
+Zm00001eb344140	K7V1H2	NA	6	Protein SUPPRESSOR OF PHYA-105 1
+Zm00001eb345540	B7ZZT6	NA	6	CCT motif family protein
+Zm00001eb345600	K7V1X7	NA	7	BHLH transcription factor (Putative HLH DNA-binding domain superfamily protein)
+Zm00001eb346250	A0A1D6FMK3	NA	7	RNA-binding protein BRN1
+Zm00001eb348450	B4FPG2	NA	6	Actin-1
+Zm00001eb353070	Q9LEC6	NA	7	Putative ROP family GTPase ROP7 (Putative Rop family GTPase, ROP7) (Rac-like GTP-binding protein 2) (Rho-related protein from plants 7)
+Zm00001eb354430	A0A1D6FUT2	NA	5	Embryonic flower 1-like protein
+Zm00001eb355240	A0A804UH40	NA	6	AP2/ERF domain-containing protein
+Zm00001eb357450	B4F8H8	NA	1	Cytokinin riboside 5'-monophosphate phosphoribohydrolase (EC 3.2.2.n1)
+Zm00001eb360480	A0A1D6G281	NA	3	glutamate synthase (NADH) (EC 1.4.1.14)
+Zm00001eb362230	B4FGB8	NA	7	ROTUNDIFOLIA like 8
+Zm00001eb364640	A0A804QVH8	NA	7	Protein CPR-5
+Zm00001eb364700	A0A804UHW8	NA	6	CRIB domain-containing protein
+Zm00001eb364920	B6SYH2	NA	7	Stomagen C-terminal domain-containing protein
+Zm00001eb367200	K7VNC3	NA	3	Putative homeobox DNA-binding domain superfamily protein
+Zm00001eb369680	B4FJH0	NA	5	Protein kinase domain-containing protein
+Zm00001eb370850	A0A804QZC6	NA	6	Transcription factor VOZ1
+Zm00001eb371070	K7VQ40	NA	4	Putative GATA transcription factor family protein
+Zm00001eb371150	K7V8V3	NA	6	glutamate carboxypeptidase II (EC 3.4.17.21)
+Zm00001eb372070	Q9LEC4	NA	7	Putative Rop family GTPase ROP5
+Zm00001eb372370	A0A804QW47	NA	4	Pentatricopeptide repeat-containing protein
+Zm00001eb373670	A5HEH0	NA	7	Growth-regulating factor
+Zm00001eb373970	D9HNV4	NA	2	Auxin response factor
+Zm00001eb374120	B4F8Y3	NA	6	BHLH transcription factor (Pi starvation-induced transcription factor1)
+Zm00001eb374270	K7V635	NA	5	mitogen-activated protein kinase kinase (EC 2.7.12.2)
+Zm00001eb378340	K7W777	NA	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb378700	C0HFP3	NA	5	RING/U-box superfamily protein
+Zm00001eb378820	A0A804QZA2	NA	7	Growth-regulating factor
+Zm00001eb380460	A0A804R2E5	NA	1	Uncharacterized protein
+Zm00001eb383050	A0A804R4P6	NA	7	BHLH domain-containing protein
+Zm00001eb383680	Q43267	NA	8	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb386270	A0A1D6P316	NA	6	SPX domain-containing protein 1
+Zm00001eb387280	B4FTA8	NA	7	AP2-EREBP transcription factor (Floral homeotic protein APETALA 2)
+Zm00001eb391070	B6T3N5	NA	6	phosphatidylglycerophosphatase (EC 3.1.3.27)
+Zm00001eb391280	B6STZ1	NA	7	C2C2-GATA transcription factor (GATA transcription factor 2) (GATA transcription factor 9)
+Zm00001eb395430	C4JAD9	NA	5	Putative homeobox DNA-binding domain superfamily protein
+Zm00001eb402080	A0A804RAC6	NA	7	RING-type domain-containing protein
+Zm00001eb402940	K7VHI1	NA	8	Putative leucine-rich repeat receptor-like protein kinase family protein
+Zm00001eb403750	Q9FR85	NA	8	M5 protein (MADS box protein 1) (MADS transcription factor) (MADS1) (SOC1)
+Zm00001eb404060	A0A1D6PL67	NA	4	Putative DUF26 domain receptor-like protein kinase
+Zm00001eb404350	A0A1D6PM20	NA	8	Phosphatidylinositol N-acetyglucosaminlytransferase subunit P-related
+Zm00001eb404640	K7VI78	NA	7	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb405060	A0A1D6IQY9	NA	7	Regulatory protein NPR5
+Zm00001eb406780	O24585	NA	7	Putative receptor protein kinase CRINKLY4 (EC 2.7.11.1)
+Zm00001eb408670	A0A1D6IUI9	NA	4	ubiquitinyl hydrolase 1 (EC 3.4.19.12)
+Zm00001eb412710	K7TGP8	NA	5	Xyloglucan glycosyltransferase 4
+Zm00001eb415640	B6SW93	NA	6	KANADI-like transcription factor FEATHERED
+Zm00001eb416970	K7U110	NA	8	Uncharacterized protein
+Zm00001eb416980	A0A1D6J125	NA	7	Homeodomain leucine zipper family IV protein
+Zm00001eb417710	A0A804UM35	NA	6	Receptor kinase-like protein Xa21 (EC 2.7.11.1)
+Zm00001eb421340	B4FJG6	NA	7	Protein AUXIN SIGNALING F-BOX 3
+Zm00001eb424060	C0PGU4	NA	7	ABC transporter B family member 19
+Zm00001eb424930	A0A804UMM9	NA	7	Transglutaminase15
+Zm00001eb425830	B6T8W3	NA	5	S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50)
+Zm00001eb425970	K7U4Z8	NA	7	Sister chromatid cohesion protein PDS5 B-B
+Zm00001eb426330	A0A0K1H3E7	NA	6	Dicer-like 103 (Dicer-like protein 4)
+Zm00001eb427720	A0A1D6JBB9	NA	6	Metal-nicotianamine transporter YSL2
+Zm00001eb428570	C0P5D8	NA	7	Subtilisin-like protease SBT1.3
+Zm00001eb430240	Q84QG8	NA	7	Floricaula/leafy-like transcription factor
+Zm00001eb430300	A0A804RR79	NA	7	Growth-regulating factor
+Zm00001eb431350	A0A1D6JEY8	NA	7	Homeodomain leucine zipper family IV protein
+Zm00001eb431780	A0A1D6JFD4	NA	7	Epidermal patterning factor-like protein
+Zm00001eb431930	K7TWX7	NA	7	ABC transporter B family member 19
+Zm00001eb432070	A0A1D6JFZ8	NA	6	RING-type E3 ubiquitin transferase (EC 2.3.2.27)
+Zm00001eb432100	A0A804UMV6	NA	4	AP2/ERF domain-containing protein
+Zm00001eb432140	B6TH10	NA	3	WUSCHEL-related homeobox 4
+Zm00001eb432720	K7TT58	NA	6	Putative HLH DNA-binding domain superfamily protein
+Zm00001eb433020	D9HNV6	NA	2	Auxin response factor
+Zm00001eb433980	A0A1D6JIA9	NA	8	K(+) efflux antiporter 2 chloroplastic
+Zm00001eb434090	Q1G1I8	NA	3	Pentatricopeptide repeat protein

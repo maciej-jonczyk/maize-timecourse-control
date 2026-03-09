@@ -1,7 +1,7 @@
 ---
 title: "Automatic import files to Cytoscape and color network, control"
 format: html
-date: "2026-02-10"
+date: "2026-02-12"
 bibliography: ../../../refs-stat-anal.bib
 execute:
   fig-format: png
@@ -47,9 +47,9 @@ rm(list=ls())
 
 ```{r format all}
 
-clusters <- vector("list", length = 15)
+clusters <- vector("list", length = 11)
 
-for (i in 1:15) {
+for (i in 1:11) {
   input_file=paste0("../results/network/cluster_", i, "_400_rel3_tf-activ.txt")
   
   cl = read.table(input_file, header=TRUE, stringsAsFactors = FALSE, sep='\t', quote = "")
@@ -87,11 +87,26 @@ createNetworkFromDataFrames(
 # PROBLEM - ZA KAŻDĄ ZMIANĄ LICZBY KLASTRÓW TRZEBA KOLOROWAĆ RĘCZNIE W CYTOSCAPE, ROBIĆ SCREEN I POBIERAĆ KOLOR W GIMP.
 
 # color nodes from main cluster
+# setNodeColorMapping(
+#   "cluster",
+#   c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"),
+#   c("#ffeea0", "#ffdf92", "#fdd283", "#fdc475", "#feb767", "#fea959", "#fe9b4a", "#fd8c3c", "#f47838", "#ec6536", "#e25134", "#d83c2f", "#ce282c", "#c61529", "#bd0026"),
+#   mapping.type="c"
+# )
+
+library(paletteer)
+# Użycie palety kolorów
+colors <- paletteer_dynamic("cartography::orange.pal", 11)
+
+# Usunięcie ostatnich dwóch znaków - inaczej jest za dużo i kody są niepoprawne (przynajmniej dla tej funkcji)
+colors <- substr(colors, 1, 7)
+
+# Ustawienie mapowania kolorów
 setNodeColorMapping(
   "cluster",
-  c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"),
-  c("#ffeea0", "#ffdf92", "#fdd283", "#fdc475", "#feb767", "#fea959", "#fe9b4a", "#fd8c3c", "#f47838", "#ec6536", "#e25134", "#d83c2f", "#ce282c", "#c61529", "#bd0026"),
-  mapping.type="c"
+  c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"),
+  colors,
+  mapping.type = "c"
 )
 
 setNodeColorBypass(

@@ -607,13 +607,13 @@ for (key in names(results)) {
 library(Mfuzz)
 
 
-c_val = 10
-m_val = 1.25
+c_val = 15
+m_val = 1.15
 
 ## Uncomment on new session
 load("../rdata-saved/vsd.eset.ave.std.leafALLsig.RDa")
 
-source("mfuzz.plot2_separate_lines.R") # modified plotting function, tailored to seprarate lines
+source("../../sam/scripts/mfuzz.plot2_separate_lines_ctrl.R") # modified plotting function, tailored to separate lines
 
     set.seed(1) # for reproducibility
     
@@ -622,28 +622,30 @@ source("mfuzz.plot2_separate_lines.R") # modified plotting function, tailored to
     
     # dynamic naming of file
     
-for (cluster in 1:10) {
+for (cluster in 1:15) {
     
     filename <- paste0("cl", cluster, "_", c_val, "_", m_val, ".eps")
 
     # save plot
     postscript(filename, horizontal = FALSE, onefile = TRUE, paper = "special", height = 3.8, width = 8)
+    # mfuzz.plot2mod(vsd.eset.ave.std, single=cluster, cl = cl, mfrow = c(1,1), x11 = FALSE, centre=TRUE, centre.col="black", centre.lwd=2,
+    #             time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2)
     mfuzz.plot2mod(vsd.eset.ave.std, single=cluster, cl = cl, mfrow = c(1,1), x11 = FALSE, centre=TRUE, centre.col="black", centre.lwd=2,
-                time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2)
+                 time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2, ylim = c(-4,4)) # Version with custom Y-limits
     dev.off()
     
 }
     
     # Plot for genes witn membership >= 0.7
     # dynamic naming of file
-for (cluster in 1:10) {
+for (cluster in 1:15) {
     
     filename <- paste0("cl", cluster, "_", c_val, "_", m_val, "minmem07.eps")
 
     # save plot
     postscript(filename, horizontal = FALSE, onefile = TRUE, paper = "special", height = 3.8, width = 8)
-    mfuzz.plot2mod(vsd.eset.ave.std, single=cluster, cl = cl, min.mem = 0.7, mfrow = c(1,1), x11 = FALSE, centre=TRUE, centre.col="black", centre.lwd=2,
-                time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2)
+    # mfuzz.plot2mod(vsd.eset.ave.std, single=cluster, cl = cl, min.mem = 0.7, mfrow = c(1,1), x11 = FALSE, centre=TRUE, centre.col="black", centre.lwd=2, time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2)
+      mfuzz.plot2mod(vsd.eset.ave.std, single=cluster, cl = cl, min.mem = 0.7, mfrow = c(1,1), x11 = FALSE, centre=TRUE, centre.col="black", centre.lwd=2, time.labels = colnames(vsd.eset.ave.std),  cex.axis = 0.6, las = 2,ylim = c(-4,4))
     dev.off()
     
     

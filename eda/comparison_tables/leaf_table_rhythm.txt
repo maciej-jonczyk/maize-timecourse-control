@@ -1,0 +1,24 @@
+ensembl	uniprot	cluster.cold	cluster.ctrl	description
+Zm00001eb006310	B4FYX2	6	7	15-cis-phytoene desaturase chloroplastic/chromoplastic
+Zm00001eb018850	C0PFN2	4	NA	Protein LNK1
+Zm00001eb027960	B4FBZ9	6	7	Uncharacterized protein
+Zm00001eb092230	E3VJR1	6	NA	PRR59 (Two-component response regulator-like APRR9)
+Zm00001eb103490	A0A1D6ETT4	6	1	Two-component response regulator-like APRR9
+Zm00001eb109440	A0A804MT10	6	7	Uncharacterized protein
+Zm00001eb113780	A0A1D6F6I1	6	1	Adagio protein 3
+Zm00001eb122110	A0A1D6MIW7	6	1	Gigantea2
+Zm00001eb184870	F1DJY9	6	NA	Pseudo-response regulator 1
+Zm00001eb198960	A0A1D6QJY6	6	NA	Two-component response regulator-like APRR9
+Zm00001eb201580	A0A804P1C7	6	1	PAS domain-containing protein
+Zm00001eb247330	A0A1D6HD83	6	7	Pseudo-response regulator 1
+Zm00001eb290780	C0HH05	9	NA	aralkylamine N-acetyltransferase (EC 2.3.1.87)
+Zm00001eb332560	C0HGW1	4	NA	Uncharacterized protein
+Zm00001eb337600	B1H3M2	6	NA	Gigantea 1A (Gigantea1)
+Zm00001eb392400	C0PP75	4	15	Protein LNK1
+Zm00001eb019280	A0A804LLF8	NA	13	Uncharacterized protein
+Zm00001eb019700	B6SXG0	NA	1	EARLY flowering 4 protein
+Zm00001eb112080	A0A804MUD6	NA	1	Two-component response regulator-like PRR37
+Zm00001eb228570	B6UHU1	NA	9	Catalase (EC 1.11.1.6)
+Zm00001eb273260	A0A1D6LP15	NA	13	Adagio protein 1
+Zm00001eb319590	B4FWH6	NA	1	Two-component response regulator-like APRR9
+Zm00001eb341790	A0A804QML3	NA	15	Protein LNK2

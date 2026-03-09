@@ -1,7 +1,7 @@
 ---
 title: "Prepare network files for analysis in Cytoscape, control"
 format: html
-date: "2026-02-09"
+date: "2026-02-11"
 bibliography: ../../../refs-stat-anal.bib
 execute:
   fig-format: png
@@ -38,11 +38,11 @@ rm(list=ls())
 
 ## Load data
 
-`c10_m1.25` contains data for clusters.
+`c11_m1.15` contains data for clusters.
 
 
 ```{r load}
-load("../rdata-saved/mfuzz_c15_m1.15_leafALLsig.RDa")
+load("../rdata-saved/mfuzz_c11_m1.15_leafALLsig.RDa")
 
 # gene description
 anno = read.table("../../../../project1-stat/input-data/go-uniprot/NAM_descr_best", header=FALSE, stringsAsFactors = FALSE, sep="\t", quote = "")
@@ -60,11 +60,11 @@ mkdir ../results/network/
 ```{r membership-table}
 ## All genes in clusters with membership values
 ## 1.  Sprawdź, co w nim jest
-# str(c15_m1.15)
+# str(c11_m1.15)
 
 ## 2.  Pobierz wektor cluster (nazwany) i macierz membership
-cl_vec   <- c15_m1.15$cluster               # wektor długości 11936, nazwy = geny
-mem_mat  <- c15_m1.15$membership            # macierz 11936 × 10
+cl_vec   <- c11_m1.15$cluster               # wektor długości 11936, nazwy = geny
+mem_mat  <- c11_m1.15$membership            # macierz 11936 × 10
 
 ## 3.  Upewnij się, że nazwy wierszy obu obiektów są zgodne
 identical(names(cl_vec), rownames(mem_mat))
@@ -88,7 +88,7 @@ df2 <- df |>
   select(gene, everything())             # opcjonalnie przestaw kolejność
 
 # select only rows where any of the memberships is >= 0.7
-c15_m1.15_mem07 <- df2 |>
+c11_m1.15_mem07 <- df2 |>
   filter(
     if_any(starts_with("mem_"),
            ~ . >= 0.7)              # warunek na każdą z nich
@@ -97,24 +97,24 @@ c15_m1.15_mem07 <- df2 |>
 
 # Extract max value from membership columns and retain it in new column
 # 1 Wybieramy kolumny zaczynające się od "mem_"
-mem_cols <- grep("^mem_", names(c15_m1.15_mem07), value = TRUE)
+mem_cols <- grep("^mem_", names(c11_m1.15_mem07), value = TRUE)
 
 # 2 Obliczamy maksimum w każdym wierszu (ignorujemy NA)
-max_mem <- apply(c15_m1.15_mem07[mem_cols], 1, max, na.rm = TRUE)
+max_mem <- apply(c11_m1.15_mem07[mem_cols], 1, max, na.rm = TRUE)
 
 # 3 Tworzymy nową ramkę z wybranymi kolumnami + maksymalną wartością
-c15_m1.15_maxmem <- data.frame(
-  gene        = c15_m1.15_mem07$gene,
-  cluster     = c15_m1.15_mem07$cluster,
+c11_m1.15_maxmem <- data.frame(
+  gene        = c11_m1.15_mem07$gene,
+  cluster     = c11_m1.15_mem07$cluster,
   max_mem     = max_mem,
   stringsAsFactors = FALSE
 )
 
 # Table will be joined with String network data by gene name so it must be sorted
 
-c15_m1.15_sort <- c15_m1.15_maxmem[order(c15_m1.15_maxmem$gene), ]
+c11_m1.15_sort <- c11_m1.15_maxmem[order(c11_m1.15_maxmem$gene), ]
 
-write.table(c15_m1.15_sort, file="../results/network/c15_m1.15_sort", sep="\t", quote=FALSE, row.names=FALSE)
+write.table(c11_m1.15_sort, file="../results/network/c11_m1.15_sort", sep="\t", quote=FALSE, row.names=FALSE)
 
 ```
 
@@ -156,56 +156,58 @@ Preferentially UPs in STRING were selected already.
 cd ../results/network/
   
 # join and sort by UP
-join -1 2 -2 1 -t $'\t' ../../../../../project1-stat/input-data/networks-up/best-nam-string-ids c15_m1.15_sort | sort -k2,2 -t $'\t'> c15_UP_srt
+join -1 2 -2 1 -t $'\t' ../../../../../project1-stat/input-data/networks-up/best-nam-string-ids c11_m1.15_sort | sort -k2,2 -t $'\t'> c11_UP_srt
 
 # checks - NAMs are unique but UP no
-wc -l c15_UP_srt
-# 6559
-cut -f1 -d $'\t' c15_UP_srt | sort -u | wc -l
-# 6559
-cut -f2 -d $'\t' c15_UP_srt | sort -u | wc -l
-# 6543 # some UPs map to multiple NAMs
+wc -l c11_UP_srt
+# 6784
+cut -f1 -d $'\t' c11_UP_srt | sort -u | wc -l
+# 6784
+cut -f2 -d $'\t' c11_UP_srt | sort -u | wc -l
+# 6767 # some UPs map to multiple NAMs
 
 # Check
-cut -f2 -d $'\t' c15_UP_srt | sort | uniq -d > x
-grep -Fwf x c15_UP_srt
-# Zm00001eb435450 A0A1X7YHG9      11      0.876347317699532
-# Zm00001eb437230 A0A1X7YHG9      11      0.892706706796203
-# Zm00001eb082960 A0A804MG65      8       0.888493573829127
-# Zm00001eb091870 A0A804MG65      8       0.996694107183425
-# Zm00001eb036010 A0A804R6C8      3       0.999755861952432
-# Zm00001eb291550 A0A804R6C8      3       0.999933823213872
-# Zm00001eb039150 A0A804RKJ9      5       0.999857703338064
-# Zm00001eb435060 A0A804RKJ9      3       0.93610300637438
-# Zm00001eb435180 A0A804RKJ9      11      0.815824657574332
-# Zm00001eb435390 A0A804RKJ9      3       0.991144721459669
-# Zm00001eb437320 A0A804RSK5      11      0.895397152546821
-# Zm00001eb439950 A0A804RSK5      11      0.942495643374404
-# Zm00001eb435270 A0A804RTX5      11      0.93009790176509
-# Zm00001eb435480 A0A804RTX5      11      0.994529969612153
-# Zm00001eb025010 A0A804UH07      4       0.997655229640279
-# Zm00001eb356570 A0A804UH07      5       0.99999926057704
-# Zm00001eb111290 B4F8D6  8       0.834166364263806
-# Zm00001eb330440 B4F8D6  7       0.999790681441067
-# Zm00001eb287110 B4FLA3  7       0.859890927340134
-# Zm00001eb350780 B4FLA3  7       0.87107210879169
-# Zm00001eb002910 B4FTA5  6       0.999976669254395
-# Zm00001eb003040 B4FTA5  10      0.999439385742711
-# Zm00001eb117140 B6SGR7  2       0.978700038132603
-# Zm00001eb300890 B6SGR7  15      0.99966543393637
-# Zm00001eb039190 P06586  3       0.980518350183671
-# Zm00001eb097380 P06586  3       0.828813824570899
-# Zm00001eb099930 P62787  2       0.86907479001702
-# Zm00001eb187430 P62787  5       0.975425963484028
-# Zm00001eb313720 P62787  12      0.993501940587386
+cut -f2 -d $'\t' c11_UP_srt | sort | uniq -d > x
+grep -Fwf x c11_UP_srt
+# Zm00001eb082960 A0A804MG65      8       0.76122888538664
+# Zm00001eb091870 A0A804MG65      8       0.963925554248757
+# Zm00001eb263270 A0A804PS35      6       0.791304649283295
+# Zm00001eb263360 A0A804PS35      2       0.996456152989528
+# Zm00001eb036010 A0A804R6C8      3       0.985472028999945
+# Zm00001eb291550 A0A804R6C8      3       0.994673305266217
+# Zm00001eb039150 A0A804RKJ9      2       0.999641315419548
+# Zm00001eb435060 A0A804RKJ9      3       0.998599073033651
+# Zm00001eb435180 A0A804RKJ9      6       0.798761234176524
+# Zm00001eb435390 A0A804RKJ9      3       0.997646800866484
+# Zm00001eb437320 A0A804RSK5      6       0.867570476563356
+# Zm00001eb439950 A0A804RSK5      6       0.738182038486144
+# Zm00001eb435270 A0A804RTX5      5       0.779568863240406
+# Zm00001eb435480 A0A804RTX5      5       0.896930683339714
+# Zm00001eb025010 A0A804UH07      4       0.997106160340206
+# Zm00001eb356570 A0A804UH07      2       0.999703859389375
+# Zm00001eb111290 B4F8D6  8       0.743238580736599
+# Zm00001eb330440 B4F8D6  7       0.998614368919018
+# Zm00001eb287110 B4FLA3  7       0.924634298798688
+# Zm00001eb350780 B4FLA3  7       0.964934879338268
+# Zm00001eb002910 B4FTA5  6       0.996722038743201
+# Zm00001eb003040 B4FTA5  10      0.999907359053825
+# Zm00001eb117140 B6SGR7  9       0.982707145168438
+# Zm00001eb300890 B6SGR7  11      0.999225521329834
+# Zm00001eb055330 B6TQ08  11      0.999978103523888
+# Zm00001eb216070 B6TQ08  6       0.754144973379603
+# Zm00001eb039190 P06586  3       0.98721822816954
+# Zm00001eb097380 P06586  3       0.933400446034896
+# Zm00001eb099930 P62787  2       0.969274315190763
+# Zm00001eb187430 P62787  2       0.978725718199962
+# Zm00001eb313720 P62787  9       0.924663206008392
 
-# A0A804RKJ9, A0A804UH07, B4F8D6, B4FTA5, B6SGR7, P62787 duplicated NAMs are in different clusters
+# A0A804PS35, A0A804RKJ9, A0A804UH07, B4F8D6, B4FTA5, B6SGR7, B6TQ08, P62787 duplicated NAMs are in different clusters
 
 # exclude them
-echo -e 'A0A804RKJ9\nA0A804UH07\nB4F8D6\nB4FTA5\nB6SGR7\nP62787' > x
+echo -e 'A0A804PS35\nA0A804RKJ9\nA0A804UH07\nB4F8D6\nB4FTA5\nB6SGR7\nB6TQ08\nP62787' > x
 
-grep -Fwvf x c15_UP_srt > x2
-mv x2 c15_UP_srt
+grep -Fwvf x c11_UP_srt > x2
+mv x2 c11_UP_srt
 ```
 
 ## Add network data
@@ -216,17 +218,17 @@ cd ../results/network/
 ## extract data for first interactors from network file
   
 # cut UPs column, this was done previously BUT this time it won't contain duplicates in different clusters
-cut -f2 -d $'\t' c15_UP_srt | sort -u > c15_ids_up
+cut -f2 -d $'\t' c11_UP_srt | sort -u > c11_ids_up
 
 # extract interactions for selected UPs from full network
-zgrep -Fwf c15_ids_up ../../../../../project1-stat/input-data/networks-up/full-network.gz > c15_UP_net_selected
+zgrep -Fwf c11_ids_up ../../../../../project1-stat/input-data/networks-up/full-network.gz > c11_UP_net_selected
 
 
 ## Add NAMs and description ##
 # for UP1
 
 # translate spaces to tabs in network data
-tr ' ' '\t' < c15_UP_net_selected > ~/x
+tr ' ' '\t' < c11_UP_net_selected > ~/x
 # sort by UP1
 sort -k1,1 -t $'\t' ~/x > ~/xUP1
 
@@ -245,14 +247,14 @@ join -j 2 -t $'\t' -a1 -o auto ~/xUP2 ../../../../../project1-stat/input-data/go
 
 # UP1
 # check sorting, using original results from R (without UPs)
-sort -k1,1 -t $'\t' -c c15_m1.15_sort
+sort -k1,1 -t $'\t' -c c11_m1.15_sort
 # ok
 
 # sort cluster data by NAM1
 sort -k17,17 -t $'\t' ~/xUPsNAMs > ~/xNAM1
 
 # join
-join -1 17 -2 1 -t $'\t' -a1 -o auto ~/xNAM1 c15_m1.15_sort > ~/x2NAM1
+join -1 17 -2 1 -t $'\t' -a1 -o auto ~/xNAM1 c11_m1.15_sort > ~/x2NAM1
 # 1,21,22 - NAM1, 
 
 # UP2
@@ -260,7 +262,7 @@ join -1 17 -2 1 -t $'\t' -a1 -o auto ~/xNAM1 c15_m1.15_sort > ~/x2NAM1
 sort -k19,19 -t $'\t' ~/x2NAM1 > ~/xNAM2
 
 # join
-join -1 19 -2 1 -t $'\t' -a1 -o auto ~/xNAM2 c15_m1.15_sort > ~/x2NAM1NAM2
+join -1 19 -2 1 -t $'\t' -a1 -o auto ~/xNAM2 c11_m1.15_sort > ~/x2NAM1NAM2
 # 1,3,20,23,24 NAM2, 2,4,19,21,22 NAM1
 
 # select rows with NAM1 not empty - this is in the clusters
@@ -304,7 +306,7 @@ cut -f7,9,10 -d $'\t' ~/x4final | sort -u > ~/x2
 # concatenate
 cat ~/x1 ~/x2 | sort -u > ~/x3
 # does data present in both files match?
-join -j1 -t $'\t' c15_m1.15_sort ~/x3 > ~/x4
+join -j1 -t $'\t' c11_m1.15_sort ~/x3 > ~/x4
 # cut respective columns and compare with diff
 cut -f2,3 -d $'\t' ~/x4 > ~/x41
 cut -f4,5 -d $'\t' ~/x4 > ~/x42
@@ -313,9 +315,9 @@ diff -s ~/x41 ~/x42
 
 # Check NAMs not in cluster
 # extract NAMs without cluster from final file
-join -j1 -t $'\t' -a1 -a2 -o auto c15_m1.15_sort ~/x3 | awk -v FS='\t' -v OFS='\t' '$2=="" && $4==""' > ~/x5
+join -j1 -t $'\t' -a1 -a2 -o auto c11_m1.15_sort ~/x3 | awk -v FS='\t' -v OFS='\t' '$2=="" && $4==""' > ~/x5
 # grep them from network assignment file
-grep -Fwf ~/x5 c15_m1.15_sort > ~/x2
+grep -Fwf ~/x5 c11_m1.15_sort > ~/x2
 # check number of rows, should be 0
 wc -l ~/x2
 # 0 /home/mj/x2
@@ -333,12 +335,12 @@ diff -s  ~/x3 ~/x
 
 # Cleanup
 
-mv ~/x4final c15_net_allcl
+mv ~/x4final c11_net_allcl
 rm ~/x*
   
-
+  
 # Manual checks for random entries
-shuf -n3 c15_net_allcl
+shuf -n3 c11_net_allcl
 
 ### Examples
 ## input-data/go-uniprot dir
@@ -352,7 +354,7 @@ grep A0A1D6LKH6 UP_descr_best
 
 ## Cluster assignment
 # leaf/results/network dir
-grep Zm00001eb269840 c15_m1.15_sort
+grep Zm00001eb269840 c11_m1.15_sort
 
 ```
 
@@ -362,15 +364,15 @@ grep Zm00001eb269840 c15_m1.15_sort
 cd ../results/network/
 
 # using 400 score cutoff
-awk -v FS='\t' -v OFS='\t' '$24>=400 { print > "cluster_"$4"_400.txt" }' c15_net_allcl
+awk -v FS='\t' -v OFS='\t' '$24>=400 { print > "cluster_"$4"_400.txt" }' c11_net_allcl
 
 # add header
 
-for i in {1..15}; do
+for i in {1..11}; do
   echo -e "uniprot1\tensembl1\tdesc1\tcluster1\tmember1\tuniprot2\tensembl2\tdesc2\tcluster2\tmember2\tneighborhood\tneighborhood_transferred\tfusion\tcooccurence\thomology\tcoexpression\tcoexpression_transferred\texperiments\texperiments_transferred\tdatabase\tdatabase_transferred\ttextmining\ttextmining_transferred\tcombined_score" | cat - cluster_${i}_400.txt > temp && mv temp cluster_${i}_400.txt ;
 done
 
-pigz --best c15_net_allcl
+pigz --best c11_net_allcl
 ```
 
 :::{.callout-important}

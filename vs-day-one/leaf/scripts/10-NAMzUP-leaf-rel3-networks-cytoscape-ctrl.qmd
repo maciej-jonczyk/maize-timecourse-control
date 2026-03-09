@@ -1,7 +1,7 @@
 ---
 title: "Prepare network files for analysis in Cytoscape, control"
 format: html
-date: "2026-02-10"
+date: "2026-02-12"
 bibliography: ../../../refs-stat-anal.bib
 execute:
   fig-format: png
@@ -35,7 +35,7 @@ rm(list=ls())
 
 cd ../results/network/
 
-for i in {1..15}; do
+for i in {1..11}; do
 awk '
     NR==FNR {           # Czytamy pierwszy plik (rel3-genes-tf_activ)
         keep[$1] = 1;       # budujemy tablicę asocjacyjną – klucz = wartość
@@ -65,7 +65,7 @@ done
 ```{bash photosyn}
 cd ../results/network/
 
-for i in {1..15}; do
+for i in {1..11}; do
 awk '
     NR==FNR {           # Czytamy pierwszy plik (rel3-genes-photosyn)
         keep[$1] = 1;       # budujemy tablicę asocjacyjną – klucz = wartość
@@ -95,7 +95,7 @@ done
 ```{bash rhythm}
 cd ../results/network/
 
-for i in {1..15}; do
+for i in {1..11}; do
 awk '
     NR==FNR {           # Czytamy pierwszy plik (rel3-genes-rhythm)
         keep[$1] = 1;       # budujemy tablicę asocjacyjną – klucz = wartość
@@ -125,7 +125,7 @@ done
 ```{bash dev-rel}
 cd ../results/network/
 
-for i in {1..15}; do
+for i in {1..11}; do
 awk '
     NR==FNR {           # Czytamy pierwszy plik (rel3-genes-dev)
         keep[$1] = 1;       # budujemy tablicę asocjacyjną – klucz = wartość

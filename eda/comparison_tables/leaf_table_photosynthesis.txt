@@ -1,0 +1,123 @@
+ensembl	uniprot	cluster.cold	cluster.ctrl	description
+Zm00001eb001650	B6ST36	13	11	Chloroplast oxygen-evolving complex/thylakoid lumenal 25.6kDa protein (PsbP-like protein 1 chloroplastic)
+Zm00001eb014600	A0A1D6K0A0	2	8	Calvin cycle protein CP12-2 chloroplastic
+Zm00001eb015950	C0P7G8	13	11	Photosystem II repair protein PSB27-H1 chloroplastic
+Zm00001eb034740	B6T2W9	13	11	Thylakoid lumenal 19 kDa protein
+Zm00001eb059850	B4G043	9	NA	Ferredoxin--NADP reductase, chloroplastic (FNR) (EC 1.18.1.2)
+Zm00001eb065020	A0A804M7P2	1	NA	Uncharacterized protein
+Zm00001eb077030	A0A1D6E5W5	13	NA	Oxygen-evolving enhancer protein 3
+Zm00001eb080840	A0A804MF63	13	6	glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (phosphorylating) (EC 1.2.1.13)
+Zm00001eb085500	B4F9T3	9	NA	2,3-dimethylmalate lyase
+Zm00001eb092540	O24574	13	11	Ribulose bisphosphate carboxylase small subunit, chloroplastic (RuBisCO small subunit)
+Zm00001eb126420	A0A1D6MNB9	12	10	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb129000	A0A1D6MQX6	7	2	magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase (EC 1.14.13.81)
+Zm00001eb159760	A0A1D6NJM3	3	12	PsbP domain-containing protein 5 chloroplastic
+Zm00001eb168450	A0A1D6PRY2	4	NA	Protein kinase superfamily protein
+Zm00001eb175600	Q4R1B1	4	15	PGR5
+Zm00001eb197410	P05348	13	11	Ribulose bisphosphate carboxylase small subunit, chloroplastic (RuBisCO small subunit)
+Zm00001eb212460	B6TZT2	4	NA	Chaperonin-like RbcX protein
+Zm00001eb225760	C0PFX5	5	NA	TIM-barrel signal transduction protein isoform 2
+Zm00001eb227320	A0A1D6GVM7	4	15	Delta-aminolevulinic acid dehydratase
+Zm00001eb246820	B4FTR7	13	NA	Protein TAB2 homolog, chloroplastic (Zm-TAB2)
+Zm00001eb255940	A0A1X7YHF7	9	NA	Photosystem II D2 protein (PSII D2 protein) (EC 1.10.3.9) (Photosystem Q(A) protein)
+Zm00001eb260140	B1P759	13	11	Ferredoxin
+Zm00001eb260160	O80429	13	11	Ferredoxin-2, chloroplastic (Ferredoxin II) (Fd II)
+Zm00001eb271820	A0A1D6LLW6	13	11	Photosystem II stability/assembly factor
+Zm00001eb273000	A0A1D6LNP8	4	15	Pentatricopeptide repeat-containing protein
+Zm00001eb287770	A0A804Q0P3	4	NA	pyruvate, phosphate dikinase (EC 2.7.9.1)
+Zm00001eb288040	A0A804Q0A2	8	NA	FAD/NAD(P)-binding oxidoreductase family protein
+Zm00001eb296290	A0A804Q3T0	11	NA	PDZ domain-containing protein
+Zm00001eb320270	C0PEY7	8	11	Tetratricopeptide repeat domain-containing protein PYG7, chloroplastic (Protein PALE YELLOW GREEN 7 homolog)
+Zm00001eb344110	A0A804QMQ8	9	6	PDZ domain-containing protein
+Zm00001eb346640	A0A804QNR1	2	8	Phosphoenolpyruvate carboxylase
+Zm00001eb349810	Q42368	3	12	Pyruvate, phosphate dikinase 2 (EC 2.7.9.1) (Pyruvate, orthophosphate dikinase 2)
+Zm00001eb358300	C0HE14	8	NA	PsbP C-terminal domain-containing protein
+Zm00001eb373700	P41347	13	NA	Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic (FTR-C) (EC 1.8.7.2) (Ferredoxin-thioredoxin reductase subunit B) (FTR-B)
+Zm00001eb422700	B4FP87	8	13	PsbP domain-containing protein 2 chloroplastic
+Zm00001eb426990	C0P4Z5	2	NA	Phosphoenolpyruvate carboxylase family protein
+Zm00001eb428710	A0A804RQH4	12	10	Phosphoenolpyruvate carboxylase
+Zm00001eb437300	A0A804UNK3	5	NA	Photosystem II reaction center protein K
+Zm00001eb002270	B4F8L7	NA	6	Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.-)
+Zm00001eb011940	A0A1D6JXJ7	NA	11	Fructose-1,6-bisphosphatase, chloroplastic (EC 3.1.3.11) (D-fructose-1,6-bisphosphate 1-phosphohydrolase)
+Zm00001eb012750	A0A804LI62	NA	11	PsbP C-terminal domain-containing protein
+Zm00001eb035340	B6SUH9	NA	6	PsbP domain-containing protein 3 chloroplastic (Thylakoid lumen protein)
+Zm00001eb038530	B6U0M5	NA	15	PGR5 (Protein PROTON GRADIENT REGULATION 5 chloroplastic)
+Zm00001eb039150	A0A804RKJ9	NA	5	Ribulose bisphosphate carboxylase large chain (EC 4.1.1.39)
+Zm00001eb039850	B4FB27	NA	11	NAD(P)-binding Rossmann-fold superfamily protein
+Zm00001eb042520	B6U5I1	NA	11	peptidylprolyl isomerase (EC 5.2.1.8)
+Zm00001eb043000	B7ZYR6	NA	4	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit alpha (PFP) (6-phosphofructokinase, pyrophosphate dependent) (PPi-PFK) (Pyrophosphate-dependent 6-phosphofructose-1-kinase)
+Zm00001eb052130	B4FRW5	NA	12	Pyruvate kinase (EC 2.7.1.40)
+Zm00001eb056210	B6SQD9	NA	15	Uncharacterized protein
+Zm00001eb064990	B4FTA7	NA	6	PGR5-like protein 1B chloroplastic
+Zm00001eb065010	A0A804M7P1	NA	6	PGR5-like protein 1A, chloroplastic
+Zm00001eb066190	C4J2M5	NA	5	Pyruvate kinase (EC 2.7.1.40)
+Zm00001eb080810	A0A1D6E958	NA	11	Protease Do-like 8 chloroplastic
+Zm00001eb087480	A0A804MI83	NA	11	Photosystem I P700 chlorophyll a apoprotein A1
+Zm00001eb096870	B6TH55	NA	6	Photosystem I reaction center subunit IV A
+Zm00001eb100140	A0A096RWW7	NA	11	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb101960	A0A1D6ES79	NA	14	MLO-like protein
+Zm00001eb106430	A0A1D6EXK9	NA	6	Oxygen-evolving enhancer protein 3-1
+Zm00001eb107560	A0A804MS63	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb140530	Q9SLP5	NA	6	Ferredoxin--NADP reductase, chloroplastic (FNR) (EC 1.18.1.2)
+Zm00001eb141830	A0A804N7V8	NA	3	Photosystem II reaction center Psb28 protein
+Zm00001eb141870	B6TYC5	NA	12	Photosystem II reaction center Psb28 protein
+Zm00001eb142170	A0A1D6N252	NA	15	PsbP domain-containing protein 7 chloroplastic
+Zm00001eb146510	A0A1D6N672	NA	15	Photosystem II subunit PsbS1
+Zm00001eb147750	B6T2L2	NA	11	Sedoheptulose-1,7-bisphosphatase, chloroplastic (EC 3.1.3.37) (SED(1,7)P2ase) (Sedoheptulose bisphosphatase)
+Zm00001eb150500	A0A1D6N9E0	NA	7	PsbP domain-containing protein 6 chloroplastic
+Zm00001eb150810	B6SMC4	NA	11	Protein CHLOROPLAST ENHANCING STRESS TOLERANCE, chloroplastic
+Zm00001eb157810	C0PGB5	NA	8	Pyruvate kinase (EC 2.7.1.40)
+Zm00001eb168100	B4FL55	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb176730	A0A804NPT2	NA	11	Photosynthetic NDH subunit of subcomplex B 1, chloroplastic
+Zm00001eb179210	A0A804NQY2	NA	7	Chaperonin-like RBCX protein 1, chloroplastic
+Zm00001eb183170	K7UG66	NA	13	Oxygen evolving enhancer protein 3
+Zm00001eb204410	B4FSD8	NA	6	Cytochrome b6-f complex iron-sulfur subunit, chloroplastic (EC 7.1.1.6) (Plastohydroquinone:plastocyanin oxidoreductase iron-sulfur protein) (Rieske iron-sulfur protein)
+Zm00001eb204600	A0A804P2T6	NA	10	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb207130	B4FZL4	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb212520	B6SKI1	NA	6	Photosystem I reaction center subunit II, chloroplastic
+Zm00001eb213670	A0A096RAV0	NA	6	Photosystem I reaction center subunit III (PSI-F)
+Zm00001eb214960	A0A804P844	NA	6	Photosystem II D1 processing protein PSB27-H2, chloroplastic
+Zm00001eb215070	B4FSG1	NA	13	Photosystem I assembly factor PSA3, chloroplastic (Protein PHOTOSYSTEM I ASSEMBLY 3)
+Zm00001eb224490	B6T927	NA	11	NAD(P)H-quinone oxidoreductase subunit S chloroplastic
+Zm00001eb227340	B4FU98	NA	6	Thylakoid lumenal 16.5 kDa protein chloroplastic
+Zm00001eb228000	A0A1D6GWA6	NA	15	Uncharacterized protein
+Zm00001eb233170	B6SSN3	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb238170	A0A1D6H5G3	NA	11	Protein THYLAKOID RHODANESE-LIKE, chloroplastic
+Zm00001eb238370	B4F9N4	NA	4	Cytochrome b6-f complex iron-sulfur subunit, chloroplastic (EC 7.1.1.6) (Plastohydroquinone:plastocyanin oxidoreductase iron-sulfur protein) (Rieske iron-sulfur protein)
+Zm00001eb244980	A0A1D6HBD7	NA	11	Photosynthetic NDH subunit of lumenal location 2 chloroplastic
+Zm00001eb248360	B6UCW8	NA	3	Ferredoxin-thioredoxin reductase, variable chain
+Zm00001eb251520	B4FQ59	NA	11	Phosphoribulokinase (EC 2.7.1.19)
+Zm00001eb254450	A0A1D6HK97	NA	11	Photosynthetic NDH subunit of subcomplex B 4 chloroplastic
+Zm00001eb255850	B6SZ37	NA	11	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb280120	C0P567	NA	5	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase subunit beta (PFP) (EC 2.7.1.90) (6-phosphofructokinase, pyrophosphate dependent) (PPi-PFK) (Pyrophosphate-dependent 6-phosphofructose-1-kinase)
+Zm00001eb294720	A0A1D6MBR0	NA	15	non-specific serine/threonine protein kinase (EC 2.7.11.1)
+Zm00001eb298270	B4FT19	NA	11	Oxygen evolving enhancer protein 3 containing protein
+Zm00001eb299760	A0A804Q5F7	NA	6	23 kDa subunit of oxygen evolving system of photosystem II (23 kDa thylakoid membrane protein) (OEC 23 kDa subunit)
+Zm00001eb301440	B4FEC3	NA	13	Pyruvate kinase (EC 2.7.1.40)
+Zm00001eb306070	A0A1D6HY75	NA	6	Photosystem I reaction center subunit IV A
+Zm00001eb309450	B6T0I5	NA	7	Putative NAD(P)H dehydrogenase subunit CRR3 chloroplastic
+Zm00001eb316290	B4G1K9	NA	6	Photosystem I reaction center subunit V, chloroplastic (PSI-G)
+Zm00001eb323460	Q41048	NA	15	Oxygen-evolving enhancer protein 3-1, chloroplastic (OEE3) (16 kDa subunit of oxygen evolving system of photosystem II) (OEC 16 kDa subunit)
+Zm00001eb324100	B4FEK7	NA	11	Chloroplast-localized Ptr ToxA-binding protein1 (Protein THYLAKOID FORMATION 1 chloroplastic)
+Zm00001eb324740	A0A804QEY2	NA	15	Chaperonin-like RbcX protein 2, chloroplastic
+Zm00001eb325410	B6T892	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb332650	K7USR3	NA	15	magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase (EC 1.14.13.81)
+Zm00001eb336580	B4FUT9	NA	6	Photosystem I reaction center subunit XI, chloroplastic (PSI subunit V)
+Zm00001eb346790	A0A804QPH3	NA	11	PsbP C-terminal domain-containing protein
+Zm00001eb352550	A0A804QTN9	NA	11	Phosphoglycerate kinase (EC 2.7.2.3)
+Zm00001eb352880	A0A1D6FSY7	NA	15	PSII 6.1 kDa protein
+Zm00001eb357740	B4G143	NA	15	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb379240	Q9SLP6	NA	6	Ferredoxin--NADP reductase, chloroplastic (FNR) (EC 1.18.1.2)
+Zm00001eb383680	Q43267	NA	15	phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+Zm00001eb407780	K7TMN0	NA	6	Mg-protoporphyrin IX chelatase (EC 6.6.1.1)
+Zm00001eb409220	K7UCS1	NA	15	Photosystem I reaction center subunit N, chloroplastic
+Zm00001eb412420	A0A804RB33	NA	11	Photosynthetic NDH subunit of subcomplex B 1, chloroplastic
+Zm00001eb424150	A0A1D6J820	NA	11	glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (phosphorylating) (EC 1.2.1.13)
+Zm00001eb424190	K7TPS7	NA	11	glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (phosphorylating) (EC 1.2.1.13)
+Zm00001eb433540	K7TXI5	NA	6	Chlorophyll a-b binding protein, chloroplastic
+Zm00001eb433610	A0A804RT50	NA	15	magnesium chelatase (EC 6.6.1.1)
+Zm00001eb433980	A0A1D6JIA9	NA	15	K(+) efflux antiporter 2 chloroplastic
+Zm00001eb435060	A0A804RKJ9	NA	3	Ribulose bisphosphate carboxylase large chain (EC 4.1.1.39)
+Zm00001eb435180	A0A804RKJ9	NA	11	Ribulose bisphosphate carboxylase large chain (EC 4.1.1.39)
+Zm00001eb435390	A0A804RKJ9	NA	3	Ribulose bisphosphate carboxylase large chain (EC 4.1.1.39)
+Zm00001eb441430	A0A804RKN3	NA	11	Cytochrome f

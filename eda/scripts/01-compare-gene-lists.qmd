@@ -1,0 +1,151 @@
+---
+title: "Tables comparing genes upregulated in cold + regrowth vs control"
+format: html
+date: "2026-02-23"
+execute:
+  fig-format: png
+  fig.dpi: 300
+---
+
+Built with R version `r getRversion()`
+
+# Table construction - leaf
+
+```{r table leaf}
+# clean environment
+rm(list=ls())
+
+# read gene - cluster data
+cold <- read.table("../../../project1-stat/vs-day-one/leaf/results/network/c13_m1.35_sort", header=TRUE, sep="\t", stringsAsFactors = FALSE)
+
+ctrl <- read.table("../../vs-day-one/leaf/results/network_c15m115/c15_m1.15_sort", header=TRUE, sep="\t", stringsAsFactors = FALSE)
+
+# join
+library(dplyr)
+
+leaf_all <- full_join(cold, ctrl, by = join_by(gene), suffix = c(".cold", ".ctrl")) |>
+  select(gene, cluster.cold, cluster.ctrl)
+
+# check number of unique rows
+x = rbind(cold, ctrl)
+length(unique(x$gene))
+# 9292
+
+length(unique(leaf_all$gene))
+# 9292
+# join is correct
+
+# add UP and description
+## NAM - UP
+nam_up = read.table("../../../project1-stat/input-data/go-uniprot/NAM2UP_all_forGOextraction", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+## annotation
+anno = read.table("../../../project1-stat/input-data/go-uniprot/UP_descr_best", header=FALSE, sep="\t", stringsAsFactors = FALSE, quote="")
+
+l_a_namup = left_join(leaf_all, nam_up, by = join_by(gene == V1))
+
+leaf_table = left_join(l_a_namup, anno, by = join_by(V2 == V1)) |>
+  relocate(V2, .after = gene) |>
+    rename(ensembl = gene,
+           uniprot = V2,
+           description = V2.y)
+
+
+# read genes from selected categories
+development = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-dev", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+photosyn = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-photosyn", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+rhythm = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-rhythm", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+tran_reg = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-tf_activ", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+
+# select genes
+## developmental
+leaf_table_dev = leaf_table[leaf_table$ensembl %in% development$V1, ]
+
+# check
+# x = subset(leaf_table_dev, cluster.cold == 4)
+# and compare with network-file in bash
+# cd /media/mj/ANTIX-LIVE/project1-stat/vs-day-one/leaf/results/network
+# sort -u -k1,1 -t $'\t' cluster_7_400_rel3_dev.txt | wc -l
+
+## photosynthesis
+leaf_table_photo = leaf_table[leaf_table$ensembl %in% photosyn$V1, ]
+
+## rhythm
+leaf_table_rhythm = leaf_table[leaf_table$ensembl %in% rhythm$V1, ]
+
+## rhythm
+leaf_table_tran_reg = leaf_table[leaf_table$ensembl %in% tran_reg$V1, ]
+
+# Export all tables to files
+write.table(leaf_table_dev, "../comparison_tables/leaf_table_developmental.txt", sep="\t", quote=FALSE, row.names = FALSE)
+write.table(leaf_table_photo, "../comparison_tables/leaf_table_photosynthesis.txt", sep="\t", quote=FALSE, row.names = FALSE)
+write.table(leaf_table_rhythm, "../comparison_tables/leaf_table_rhythm.txt", sep="\t", quote=FALSE, row.names = FALSE)
+write.table(leaf_table_tran_reg, "../comparison_tables/leaf_table_tran_reg.txt", sep="\t", quote=FALSE, row.names = FALSE)
+```
+
+# Table construction - sam
+
+```{r table sam}
+# clean environment
+rm(list=ls())
+
+# read gene - cluster data
+cold <- read.table("../../../project1-stat/vs-day-one/sam/results/network/c10_m1.25_sort", header=TRUE, sep="\t", stringsAsFactors = FALSE)
+
+ctrl <- read.table("../../vs-day-one/sam/results/network/c8_m1.15_sort", header=TRUE, sep="\t", stringsAsFactors = FALSE)
+
+# join
+library(dplyr)
+
+sam_all <- full_join(cold, ctrl, by = join_by(gene), suffix = c(".cold", ".ctrl")) |>
+  select(gene, cluster.cold, cluster.ctrl)
+
+# check number of unique rows
+x = rbind(cold, ctrl)
+length(unique(x$gene))
+# 14089
+
+length(unique(sam_all$gene))
+# 14089
+# join is correct
+
+# add UP and description
+## NAM - UP
+nam_up = read.table("../../../project1-stat/input-data/go-uniprot/NAM2UP_all_forGOextraction", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+## annotation
+anno = read.table("../../../project1-stat/input-data/go-uniprot/UP_descr_best", header=FALSE, sep="\t", stringsAsFactors = FALSE, quote="")
+
+s_a_namup = left_join(sam_all, nam_up, by = join_by(gene == V1))
+
+sam_table = left_join(s_a_namup, anno, by = join_by(V2 == V1)) |>
+  relocate(V2, .after = gene) |>
+    rename(ensembl = gene,
+           uniprot = V2,
+           description = V2.y)
+
+
+# read genes from selected categories
+development = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-dev", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+rhythm = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-rhythm", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+tran_reg = read.table("../../../project1-stat/input-data/go-uniprot/rel3-genes-tf_activ", header=FALSE, sep="\t", stringsAsFactors = FALSE)
+
+# select genes
+## developmental
+sam_table_dev = sam_table[sam_table$ensembl %in% development$V1, ]
+
+# check
+# x = subset(sam_table_dev, cluster.cold == 7)
+# and compare with network-file in bash
+# cd /media/mj/ANTIX-LIVE/project1-stat/vs-day-one/sam/results/network
+# sort -u -k1,1 -t $'\t' cluster_7_400_rel3_dev.txt | wc -l
+
+## rhythm
+sam_table_rhythm = sam_table[sam_table$ensembl %in% rhythm$V1, ]
+
+## rhythm
+sam_table_tran_reg = sam_table[sam_table$ensembl %in% tran_reg$V1, ]
+
+# Export all tables to files
+write.table(sam_table_dev, "../comparison_tables/sam_table_developmental.txt", sep="\t", quote=FALSE, row.names = FALSE)
+write.table(sam_table_rhythm, "../comparison_tables/sam_table_rhythm.txt", sep="\t", quote=FALSE, row.names = FALSE)
+write.table(sam_table_tran_reg, "../comparison_tables/sam_table_tran_reg.txt", sep="\t", quote=FALSE, row.names = FALSE)
+```

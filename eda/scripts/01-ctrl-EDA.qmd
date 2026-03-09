@@ -4,14 +4,8 @@ format: html
 date: "2026-01-20"
 execute:
   fig-format: png
-  fig.dpi: 300
+  fig.dpi: 600
 ---
-
-```{r setup}
-#| include: false
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(root.dir = "/home/mj/project1-ctrl-stat/eda/scripts")
-```
 
 Built with R version `r getRversion()`
 

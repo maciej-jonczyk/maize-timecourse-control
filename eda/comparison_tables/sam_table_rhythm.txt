@@ -1,0 +1,12 @@
+ensembl	uniprot	cluster.cold	cluster.ctrl	description
+Zm00001eb027960	B4FBZ9	5	NA	Uncharacterized protein
+Zm00001eb112080	A0A804MUD6	9	NA	Two-component response regulator-like PRR37
+Zm00001eb226260	A0A1D6GUE9	6	6	Adagio protein 1
+Zm00001eb259370	B6U4G2	1	NA	TCP transcription factor (Transcription factor TCP21)
+Zm00001eb341790	A0A804QML3	7	NA	Protein LNK2
+Zm00001eb019280	A0A804LLF8	NA	7	Uncharacterized protein
+Zm00001eb056550	B6T7Q7	NA	5	Serine hydroxymethyltransferase (EC 2.1.2.1)
+Zm00001eb092230	E3VJR1	NA	8	PRR59 (Two-component response regulator-like APRR9)
+Zm00001eb228570	B6UHU1	NA	6	Catalase (EC 1.11.1.6)
+Zm00001eb290780	C0HH05	NA	3	aralkylamine N-acetyltransferase (EC 2.3.1.87)
+Zm00001eb392400	C0PP75	NA	5	Protein LNK1

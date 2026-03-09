@@ -8,7 +8,7 @@ Both repos. entails the same research project.
 For each tissue separate directories and analyses are done.
 Numbers of scripst presents order of processing, some have the same number - branching points
 
-### Penultimate day of cold as reference
+### First day as reference
 
 Dirs and files with **one** in name
 

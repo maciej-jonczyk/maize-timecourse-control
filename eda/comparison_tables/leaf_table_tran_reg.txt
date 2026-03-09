@@ -1,0 +1,282 @@
+ensembl	uniprot	cluster.cold	cluster.ctrl	description
+Zm00001eb004670	B8A239	4	15	Heat stress transcription factor A-6b
+Zm00001eb006160	B4FIY3	12	10	AP2-EREBP transcription factor
+Zm00001eb006480	B4FM71	5	NA	MADS-box transcription factor 47
+Zm00001eb008690	A0A804LG47	1	NA	Uncharacterized protein
+Zm00001eb010190	C0PE09	1	NA	BZIP transcription factor 16
+Zm00001eb018460	B8A2P8	1	NA	BHLH transcription factor (Transcription factor bHLH47)
+Zm00001eb020400	A0A804LM09	4	NA	WRKY domain-containing protein
+Zm00001eb027720	C4J9P5	4	NA	Uncharacterized protein
+Zm00001eb027860	B4FY39	5	NA	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb028610	C0PN75	10	NA	MYB transcription factor (MYB-transcription factor 100)
+Zm00001eb031210	B4FYB5	6	1	BZIP transcription factor (Basic leucine zipper 25)
+Zm00001eb031310	A0A804LRM6	12	NA	CRC domain-containing protein
+Zm00001eb031690	B6TY54	4	15	Nuclear transcription factor Y subunit
+Zm00001eb033910	B6UA50	1	6	Nuclear transcription factor Y subunit C-2
+Zm00001eb045630	A0A804LYJ5	9	NA	Homeobox-leucine zipper protein REVOLUTA
+Zm00001eb048440	A0A1D6KVR5	12	NA	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb050790	A0A804M0W1	4	NA	BHLH domain-containing protein
+Zm00001eb051480	A0A1D6KXT4	5	3	LOB domain-containing protein 28
+Zm00001eb051900	A0A096PXB1	9	NA	BEL1-like homeodomain protein 3
+Zm00001eb055700	A0A060D4M4	10	NA	GRAS transcription factor (Scarecrow-like protein 7)
+Zm00001eb066270	A0A1D6DTG4	5	14	B3 domain-containing transcription factor LEC2
+Zm00001eb069700	A0A1D6DXM8	11	NA	Transcription factor bHLH112
+Zm00001eb070890	A0A804MAI0	12	NA	MADS-box transcription factor 31
+Zm00001eb071920	A0A804MAZ6	11	NA	HTH myb-type domain-containing protein
+Zm00001eb074460	C0P581	13	NA	Scarecrow-like protein 6
+Zm00001eb075900	A0A060D6Q3	9	NA	AP2-EREBP transcription factor (Ethylene-responsive transcription factor ERF053)
+Zm00001eb092180	A0A1D6EHW9	12	NA	Transcription factor LHW
+Zm00001eb094740	B7ZY75	12	10	GAGA-binding transcriptional activator
+Zm00001eb102780	B4FK42	2	NA	BZIP transcription factor (Putative transcription factor PosF21)
+Zm00001eb106620	C0PJM5	11	4	BHLH transcription factor (Male sterile32) (Transcription factor DYT1)
+Zm00001eb107920	C0P6R0	9	6	WRKY transcription factor
+Zm00001eb111310	A0A804MTZ8	6	NA	Uncharacterized protein
+Zm00001eb112840	A0A1D6F5K4	10	5	Putative WRKY transcription factor 75
+Zm00001eb117360	A0A804MWN2	3	12	Uncharacterized protein
+Zm00001eb119270	B4FWD1	7	NA	Transcription factor bHLH133
+Zm00001eb121600	A0A1D6MI09	10	NA	Putative WRKY transcription factor 50
+Zm00001eb136080	C0PEF7	4	NA	Nuclear transcription factor Y subunit
+Zm00001eb136350	A0A1D6MWT0	12	NA	GRAS domain family50
+Zm00001eb139830	A0A1D6N097	6	NA	Transcription factor LUX
+Zm00001eb147220	O49067	3	12	Transcription factor LG2 (Protein LIGULELESS 2) (Protein TGACG (TGA) motif-binding protein LG2)
+Zm00001eb154070	B6SQ49	6	NA	Heat shock factor protein HSF30 (Heat stress transcription factor C-1)
+Zm00001eb161920	C4J0W1	11	NA	Uncharacterized protein
+Zm00001eb172330	A0A804NMV5	7	2	Homeobox-leucine zipper protein REVOLUTA
+Zm00001eb182380	K7UFT9	4	NA	Calmodulin-binding protein 60 C
+Zm00001eb206760	A0A804P3W5	8	NA	Uncharacterized protein
+Zm00001eb206800	C0PGN9	6	7	Calmodulin binding protein2
+Zm00001eb207970	A0A804P4H1	10	NA	C2H2-type domain-containing protein
+Zm00001eb208910	A0A804P521	5	NA	Beta-amylase (EC 3.2.1.2)
+Zm00001eb209070	B6UHQ6	5	NA	BZIP transcription factor (Ocs element-binding factor 1)
+Zm00001eb217350	A0A1D6GKJ4	4	NA	BEL1-like homeodomain protein 3
+Zm00001eb223300	A0A060D8B1	12	NA	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb227200	A0A1D6GVJ9	4	NA	Myb family transcription factor PHL6
+Zm00001eb235510	B6UEP1	4	15	Transcription factor HY5
+Zm00001eb237460	A0A804PHJ1	2	8	Myb-related protein 3R-1
+Zm00001eb242480	B6SWQ2	6	NA	Heat shock factor protein 2
+Zm00001eb242510	A0A804PI00	5	NA	Uncharacterized protein
+Zm00001eb244130	A0A1D6HAU7	4	NA	Calmodulin binding protein1
+Zm00001eb250370	A0A1D6HFT2	1	4	Transcription factor bHLH157
+Zm00001eb251200	B4FD44	13	13	BHLH domain-containing protein
+Zm00001eb259650	A0A804PQ15	10	NA	BZIP domain-containing protein
+Zm00001eb270870	A0A804PTF2	3	12	Uncharacterized protein
+Zm00001eb273580	B4FXU8	7	2	MYB transcription factor (Transcription factor MYB104)
+Zm00001eb274340	C0PEA5	12	NA	CCAAT-HAP5 transcription factor
+Zm00001eb282010	A0A804PXQ6	3	NA	AP2/ERF domain-containing protein
+Zm00001eb284290	B4G0C2	13	NA	Transcription factor bHLH133
+Zm00001eb284910	A0A1D6M0X9	1	NA	Putative MYB DNA-binding domain superfamily protein
+Zm00001eb287100	A0A804Q2A9	10	5	AP2/ERF domain-containing protein
+Zm00001eb297490	C0PCY3	6	NA	RNA polymerase sigma factor
+Zm00001eb297590	A0A804Q3F7	4	NA	RNA polymerase sigma factor sigE, chloroplastic/mitochondrial
+Zm00001eb304830	A0A804Q8E9	5	3	WRKY domain-containing protein
+Zm00001eb306220	A0A804Q7S4	4	NA	HTH myb-type domain-containing protein
+Zm00001eb315870	A0A060CUY1	11	NA	BHLH transcription factor (Transcription factor bHLH76)
+Zm00001eb316730	C0P2W7	9	NA	EIL transcription factor (ETHYLENE INSENSITIVE 3-like 3 protein)
+Zm00001eb323440	F1DJQ7	2	8	BHLH transcription factor (Transcription factor ILR3)
+Zm00001eb325750	C0PLA4	7	NA	Uncharacterized protein
+Zm00001eb326550	A0A1D6IIN9	5	NA	Scarecrow-like protein 6
+Zm00001eb331000	F1DJS2	4	15	C2C2-Dof transcription factor (Dof-type zinc finger DNA-binding family protein)
+Zm00001eb332030	A0A060CX05	11	NA	MYB transcription factor (R2R3MYB-domain protein)
+Zm00001eb332190	A0A1D6FAL8	2	NA	SBP-transcription factor 9 (Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein)
+Zm00001eb335690	B4FA48	4	NA	Duplicated homeodomain-like superfamily protein (MYB-related transcription factor)
+Zm00001eb337530	A0A804QIU3	3	NA	NAC domain-containing protein
+Zm00001eb339360	K7VBN7	9	NA	Transcription factor (bHLH transcription factor) (Basic helix-loop-helix protein)
+Zm00001eb349730	A0A804QQT0	9	NA	SBP-type domain-containing protein
+Zm00001eb352860	A0A804QNH9	10	NA	CRC domain-containing protein
+Zm00001eb362240	K7V8Y4	6	NA	G2-like transcription factor (Transcription factor LUX)
+Zm00001eb362800	A0A804QTD1	9	NA	Protein IRON-RELATED TRANSCRIPTION FACTOR 2
+Zm00001eb363140	K7V9G6	13	NA	Scarecrow-like protein 3
+Zm00001eb367300	K7V3D6	1	6	Transcription factor MYBS1 (Myb-related protein S1)
+Zm00001eb369190	B4FN81	1	6	Transcription factor GAMYB (OsGAMyb)
+Zm00001eb372660	K7W500	9	NA	Putative AP2/EREBP transcription factor superfamily protein
+Zm00001eb374120	B4F8Y3	7	NA	BHLH transcription factor (Pi starvation-induced transcription factor1)
+Zm00001eb385620	K7VEK4	8	NA	Putative homeodomain-like transcription factor superfamily protein
+Zm00001eb388050	C4J6L7	6	1	BZIP transcription factor 60
+Zm00001eb392980	A0A804R3H7	3	NA	Nodulation-signaling pathway 1 protein
+Zm00001eb395640	A0A804R7U6	9	15	Transcription factor TGA6
+Zm00001eb399090	A0A804RB16	5	3	BZIP domain-containing protein
+Zm00001eb401480	K7WGI1	3	NA	Putative HLH DNA-binding domain superfamily protein
+Zm00001eb403020	K7VLT2	4	NA	Metal regulatory transcription factor 1
+Zm00001eb406000	C0PKA1	5	14	Putative WRKY transcription factor 38
+Zm00001eb407240	K7TMG2	10	9	Putative HLH DNA-binding domain superfamily protein
+Zm00001eb407730	A0A804R998	5	3	SAP domain-containing protein
+Zm00001eb416800	K7TR69	4	15	Transcription factor ILR3
+Zm00001eb417570	A0A804RJA0	1	NA	BHLH domain-containing protein
+Zm00001eb000690	A0A804LC43	NA	3	Homeobox-leucine zipper protein REVOLUTA
+Zm00001eb001670	B6T709	NA	5	Agamous-like6 (MADS-box transcription factor 56)
+Zm00001eb005380	B4FDH4	NA	15	Dof-type zinc finger DNA-binding family protein
+Zm00001eb006200	C4JA41	NA	13	AP2/ERF domain-containing protein
+Zm00001eb006680	A0A1D6JR54	NA	13	Transcription factor bHLH99
+Zm00001eb009490	A0A804LGI9	NA	15	BHLH domain-containing protein
+Zm00001eb012080	A0A1D6JXR4	NA	12	AT-hook motif nuclear-localized protein
+Zm00001eb012130	A0A096RK86	NA	11	RNA polymerase sigma factor
+Zm00001eb015490	A0A1D6K188	NA	6	Myb-related protein 2
+Zm00001eb020610	A0A1D6K643	NA	6	Zinc finger protein AZF2
+Zm00001eb023680	A0A1D6K8M6	NA	13	Ethylene-responsive transcription factor ERF105
+Zm00001eb028160	A0A1D6KD18	NA	9	Light-inducible protein CPRF-2
+Zm00001eb031560	A0A804LRR6	NA	5	BHLH domain-containing protein
+Zm00001eb036040	A0A804LTU3	NA	12	BHLH domain-containing protein
+Zm00001eb036630	A0A804LU23	NA	5	MADS-box domain-containing protein
+Zm00001eb037440	B4FU91	NA	15	Transcription factor (bHLH transcription factor) (Basic helix-loop-helix protein)
+Zm00001eb042240	A0A1D6KPR1	NA	14	DRE-binding protein 1
+Zm00001eb045780	C4IYX1	NA	15	MYB transcription factor (Myb domain protein 15)
+Zm00001eb049880	A0A804M0F9	NA	4	Scarecrow-like protein 9
+Zm00001eb050660	A0A1D6KX67	NA	15	Homeobox-leucine zipper protein ATHB-14
+Zm00001eb053830	A0A804M2A7	NA	15	Nuclear transcription factor Y subunit
+Zm00001eb057820	B4F7V7	NA	9	Putative WRKY transcription factor 57
+Zm00001eb064860	A0A1D6LC63	NA	1	Heat stress transcription factor A-1a
+Zm00001eb066260	B7ZZR7	NA	1	Transcription factor MYBS1 (Myb-related protein S1)
+Zm00001eb068520	A0A804M9D4	NA	13	AP2/ERF domain-containing protein
+Zm00001eb068530	A0A060D7N5	NA	13	AP2-EREBP transcription factor (Dehydration responsive element binding protein)
+Zm00001eb072200	A0A1D6E1F6	NA	1	Myb domain protein 58
+Zm00001eb073750	A0A804MBS1	NA	13	Dof zinc finger protein
+Zm00001eb073910	A0A804MBV0	NA	7	RWP-RK domain-containing protein
+Zm00001eb074770	A0A1D6E420	NA	3	Dehydration-responsive element-binding protein 1B
+Zm00001eb081760	A0A1D6E9S7	NA	11	Uncharacterized protein
+Zm00001eb093070	A0A804MKD6	NA	14	Uncharacterized protein
+Zm00001eb097930	C0HIB3	NA	1	BZIP transcription factor 11
+Zm00001eb098330	A0A1D6EP52	NA	3	WRKY74-superfamily of TFs having WRKY and zinc finger domains
+Zm00001eb098960	C0PNY4	NA	15	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb100380	B4FL37	NA	9	BHLH transcription factor (Transcription factor HEC2)
+Zm00001eb100750	A0A804MNU7	NA	1	BZIP domain-containing protein
+Zm00001eb101630	A0A1D6ERZ0	NA	3	Nuclear transcription factor Y subunit C-9
+Zm00001eb103730	B4FNX4	NA	7	MYB31 transcription factor31 (ZmMYB31) (Myb-related protein Hv1)
+Zm00001eb108930	B4FHR0	NA	12	Nuclear transcription factor Y subunit
+Zm00001eb111680	A0A1D6F4K4	NA	3	ETHYLENE INSENSITIVE 3-like 2 protein
+Zm00001eb117560	A0A1D6F9D0	NA	8	Transcription factor TCP2
+Zm00001eb118760	A0A1D6MEQ0	NA	8	WRKY transcription factor 6
+Zm00001eb118900	Q9FUL9	NA	15	G2-like transcription factor (Golden plant2) (Putative transcription factor GOLDEN 2) (Putative transcription factor Golden2)
+Zm00001eb120090	A0A804MXY9	NA	14	Uncharacterized protein
+Zm00001eb122550	A0A804MZ40	NA	14	HTH myb-type domain-containing protein
+Zm00001eb122740	A0A1D6MK18	NA	15	Transcription factor HY5-like
+Zm00001eb129690	A0A1D6MRA7	NA	10	Putative WRKY transcription factor 47
+Zm00001eb138040	B6SYC5	NA	7	SPF1-like DNA-binding protein
+Zm00001eb143080	B4FML1	NA	13	MADS transcription factor
+Zm00001eb145660	Q9AR51	NA	8	Floral homeotic protein PISTILLATA (Putative MADS-domain transcription factor)
+Zm00001eb145820	A0A804N9Y3	NA	14	Homeobox-leucine zipper protein REVOLUTA
+Zm00001eb146230	B4FEA9	NA	13	Transcription repressor MYB6
+Zm00001eb149680	C0P6K0	NA	9	HB transcription factor (WUSCHEL-related homeobox 13)
+Zm00001eb150010	C4J4L1	NA	15	ABSCISIC ACID-INSENSITIVE 5-like protein 2
+Zm00001eb153330	A0A804NDJ2	NA	1	WRKY domain-containing protein
+Zm00001eb154170	B4FI13	NA	1	WRKY transcription factor
+Zm00001eb154960	A0A3L6FC76	NA	9	Putative WRKY transcription factor 51
+Zm00001eb158000	A0A060D3F9	NA	10	WRKY transcription factor
+Zm00001eb158520	A0A1D6NHK5	NA	9	DELLA protein RGA
+Zm00001eb159410	A0A1D6NI90	NA	13	Putative WRKY transcription factor 14
+Zm00001eb161460	A0A1D6NLI6	NA	15	MYB-related transcription factor
+Zm00001eb164350	K7TQ87	NA	8	GRAS transcription factor
+Zm00001eb165340	A0A804NJK8	NA	14	GRAS transcription factor
+Zm00001eb168120	A0A804NKU4	NA	12	ZF-HD dimerization-type domain-containing protein
+Zm00001eb169130	K7TVS3	NA	15	BZIP transcription factor
+Zm00001eb169360	K7UQN4	NA	11	RNA polymerase sigma factor
+Zm00001eb169460	K7TZX4	NA	10	Putative WRKY DNA-binding domain superfamily protein
+Zm00001eb170840	A0A804NM48	NA	14	Homeobox domain-containing protein
+Zm00001eb172090	K7UB44	NA	15	Sigma factor 1B
+Zm00001eb173070	B4FRK4	NA	15	BHLH transcription factor
+Zm00001eb180760	A0A804NRL8	NA	14	BZIP domain-containing protein
+Zm00001eb185680	K7UHB4	NA	10	Putative AP2/EREBP transcription factor superfamily protein
+Zm00001eb187120	K7UHV4	NA	13	Dof zinc finger protein
+Zm00001eb193480	C0PHC8	NA	11	DUF1644 family protein
+Zm00001eb193790	A0A804NXJ1	NA	3	MADS-box transcription factor 22
+Zm00001eb195850	K7V1Y7	NA	11	Glossy3
+Zm00001eb198710	B4FPB4	NA	13	B3 domain-containing transcription factor LEC2
+Zm00001eb202140	K7UPH8	NA	7	Putative POX domain/homeobox DNA-binding domain family protein
+Zm00001eb209480	A0A804P5E9	NA	11	BHLH domain-containing protein
+Zm00001eb210370	A0A804P5U3	NA	11	RNA polymerase sigma factor
+Zm00001eb216040	A0A804P8L4	NA	4	Uncharacterized protein
+Zm00001eb218170	A0A804P9G8	NA	14	WRKY domain-containing protein
+Zm00001eb218730	A0A1D6GLI9	NA	15	Homeobox-leucine zipper protein ATHB-14
+Zm00001eb231040	A0A804PEF3	NA	4	BZIP domain-containing protein
+Zm00001eb232000	B4FMH9	NA	4	Myb family transcription factor PHL6
+Zm00001eb233320	B4F8H7	NA	12	SBP transcription factor (SBP-transcription factor 12) (Squamosa promoter-binding-like protein 2)
+Zm00001eb233770	A0A1D6H295	NA	7	Calmodulin binding protein
+Zm00001eb234120	A0A1D6H2L2	NA	7	Putative WRKY transcription factor 40
+Zm00001eb234170	F1DK02	NA	1	ARR-B transcription factor (Two-component response regulator ARR12)
+Zm00001eb237260	A0A1D6H4V2	NA	14	Transcription factor bHLH133
+Zm00001eb239380	B4FXG7	NA	15	Heat stress transcription factor C-1
+Zm00001eb243000	A0A1D6HA42	NA	13	Transcription factor E2FB
+Zm00001eb243510	B4FEJ7	NA	11	C2H2 transcription factor (WREBP-2 protein)
+Zm00001eb244380	A0A1D6HAY7	NA	14	Transcription factor bHLH69
+Zm00001eb244830	A0A804PJP2	NA	2	Ethylene insensitive 3-like DNA-binding domain-containing protein
+Zm00001eb246520	A0A1D6HCJ0	NA	11	Transcription factor bHLH128
+Zm00001eb248380	A0A1D6HEC7	NA	1	Ethylene-responsive transcription factor ERF053
+Zm00001eb250390	A0A1D6HFT9	NA	13	Dof zinc finger protein
+Zm00001eb253350	A0A1D6HJ35	NA	1	Transcription factor BIM3
+Zm00001eb253370	A0A1D6HJ36	NA	5	Basic leucine-zipper 58
+Zm00001eb256240	B4G0E9	NA	3	DUF1644 family protein
+Zm00001eb259870	A0A804PQG1	NA	13	TF-B3 domain-containing protein
+Zm00001eb260590	K7UH32	NA	12	MADS transcription factor
+Zm00001eb264780	B4FAQ8	NA	7	WRKY transcription factor
+Zm00001eb265630	C0PEV8	NA	4	C2H2 transcription factor (Transcription factor IIIA)
+Zm00001eb266360	K7UIU3	NA	6	MYB transcription factor
+Zm00001eb266750	A0A1D6LHP6	NA	12	Dof zinc finger protein
+Zm00001eb275080	A0A1D6LQL7	NA	9	Putative WRKY DNA-binding domain superfamily protein
+Zm00001eb279580	B7ZYZ0	NA	5	Transcription factor TCP14
+Zm00001eb280090	K7UGV9	NA	9	E2F transcription factor-like E2FE (E2F-DP transcription factor)
+Zm00001eb280480	A0A804UB37	NA	10	NAC domain-containing protein
+Zm00001eb280490	A0A804PWE0	NA	5	NAC domain-containing protein
+Zm00001eb288060	B6SXT0	NA	7	BZIP transcription factor (DNA binding protein) (FAD/NAD(P)-binding oxidoreductase family protein)
+Zm00001eb288400	A0A1D6M4M4	NA	14	Uncharacterized protein
+Zm00001eb288890	A0A1D6M531	NA	13	Putative MYB DNA-binding domain superfamily protein
+Zm00001eb288980	A0A1D6M552	NA	10	Zinc finger protein WIP6
+Zm00001eb291350	A0A804Q0H9	NA	12	HTH myb-type domain-containing protein
+Zm00001eb291960	C0PMM7	NA	4	BHLH domain-containing protein
+Zm00001eb292380	A0A804Q4K9	NA	10	CRC domain-containing protein
+Zm00001eb292690	C0HEC8	NA	11	TCP transcription factor (Transcription factor TCP5)
+Zm00001eb293250	A0A1D6MA83	NA	8	Heat stress transcription factor A-4a
+Zm00001eb296170	B6UGZ2	NA	1	MYB-related transcription factor (Putative homeodomain-like transcription factor superfamily protein) (SANT/MYB protein)
+Zm00001eb296830	K7US38	NA	6	ZF-HD transcription factor
+Zm00001eb302890	A0A060D6C7	NA	14	AP2-EREBP transcription factor (Ethylene-responsive transcription factor RAP2-11)
+Zm00001eb303690	A0A804UCZ4	NA	15	AP2/ERF domain-containing protein
+Zm00001eb307700	A0A1D6I096	NA	5	Beta-amylase (EC 3.2.1.2)
+Zm00001eb309360	A0A804QAD5	NA	9	MYB-CC type transcription factor LHEQLE-containing domain-containing protein
+Zm00001eb310270	K7UVX8	NA	9	Putative WRKY transcription factor 30
+Zm00001eb312890	B6STM4	NA	10	WRKY transcription factor (WRKY62-superfamily of TFs having WRKY and zinc finger domains)
+Zm00001eb313350	B4FR94	NA	15	AP2-EREBP transcription factor
+Zm00001eb314340	A0A1D6I5E4	NA	10	Zinc finger protein 8
+Zm00001eb314860	A0A804QAV4	NA	15	BZIP domain-containing protein
+Zm00001eb314890	A0A060D1R4	NA	9	HSF transcription factor (Heat shock factor protein 4)
+Zm00001eb318730	A0A1D6I8V3	NA	1	Putative transcription factor PosF21
+Zm00001eb328250	A0A1D6IKG7	NA	5	Amelogenin like protein
+Zm00001eb328280	B4FZS3	NA	1	Fused leaves1 (MYB transcription factor)
+Zm00001eb330710	A0A1D6IMW0	NA	10	Putative WRKY transcription factor 30
+Zm00001eb331170	C0HGY0	NA	15	Transcription factor TGA6
+Zm00001eb332340	B4FMD2	NA	1	MYB-RELATED transcription factor (Myb-related transcription activator)
+Zm00001eb332640	K7VNL8	NA	13	Transcription factor MYBS1 (Myb-related protein S1)
+Zm00001eb335060	B4FU27	NA	5	MYB transcription factor (Myb domain protein 62)
+Zm00001eb335200	K7UQ19	NA	1	AP2-EREBP transcription factor (Putative AP2/EREBP transcription factor superfamily protein isoform 1)
+Zm00001eb335680	K7VAA0	NA	6	MYB-related transcription factor (Putative MYB DNA-binding domain superfamily protein)
+Zm00001eb336820	K7VQH0	NA	2	Transcription factor HY5
+Zm00001eb337970	Q147T1	NA	11	Class III HD-Zip III protein HB8
+Zm00001eb338940	K7URF4	NA	9	AP2-EREBP transcription factor (Putative AP2/EREBP transcription factor superfamily protein)
+Zm00001eb344810	K7V1M4	NA	13	Putative WRKY DNA-binding domain superfamily protein
+Zm00001eb347090	B6T347	NA	7	LRP1 (Protein SHI RELATED SEQUENCE 6)
+Zm00001eb352210	A0A804QT10	NA	15	HTH myb-type domain-containing protein
+Zm00001eb353710	A0A1D6FU61	NA	10	Heat stress transcription factor A-4a
+Zm00001eb356430	A0A1D6FWS3	NA	10	Putative WRKY DNA-binding domain superfamily protein
+Zm00001eb357220	K7VYZ5	NA	4	Protein EARLY HEADING DATE 2 (Protein RICE INDETERMINATE 1)
+Zm00001eb364110	B4G202	NA	1	TCP transcription factor (Transcription factor TCP11)
+Zm00001eb367660	B4FX89	NA	1	MYB transcription factor (Myb domain protein 109)
+Zm00001eb369160	B4FIZ9	NA	2	ABSCISIC ACID-INSENSITIVE 5-like protein 2
+Zm00001eb371980	K7W4V3	NA	6	G2-like1
+Zm00001eb372960	A0A804QZJ4	NA	14	Uncharacterized protein
+Zm00001eb378270	B4FYC0	NA	3	GAGA-binding transcriptional activator
+Zm00001eb385610	A0A804R3F9	NA	15	Transcription factor HY5
+Zm00001eb390330	K7VC27	NA	14	Transcription factor (bHLH transcription factor) (Basic helix-loop-helix protein)
+Zm00001eb395050	B4FHQ5	NA	10	DNA binding protein
+Zm00001eb395100	B4F7X2	NA	3	BZIP transcription factor (Basic leucine-zipper 52)
+Zm00001eb395130	A0A804R7L4	NA	10	WRKY domain-containing protein
+Zm00001eb402220	C4JBN7	NA	12	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb404260	A0A804RBF3	NA	15	Homeobox-leucine zipper protein REVOLUTA
+Zm00001eb405450	K7TLS0	NA	2	MYB transcription factor 69 (ZmMYB69) (Myb-related protein 306)
+Zm00001eb410260	K7TJS3	NA	9	Calmodulin-binding protein 60 G
+Zm00001eb411700	B4FFZ4	NA	10	BZIP domain-containing protein
+Zm00001eb415360	B4FP19	NA	1	Sigma70-like transcription factor
+Zm00001eb416530	B4FLJ6	NA	6	DNA binding protein (MYB-related transcription factor) (Myb-like transcription factor family protein)
+Zm00001eb417490	A0A1D6J1S5	NA	10	Putative WRKY DNA-binding domain superfamily protein
+Zm00001eb419470	K7TN85	NA	1	Uncharacterized protein
+Zm00001eb425660	A0A804RGS1	NA	15	Protein NLP2
+Zm00001eb427650	A0A1D6JBA8	NA	15	Homeobox-leucine zipper protein (HD-ZIP protein) (Homeodomain transcription factor)
+Zm00001eb432100	A0A804UMV6	NA	13	AP2/ERF domain-containing protein
+Zm00001eb433040	B6SXM1	NA	13	G2-like transcription factor (Myb family transcription factor PHL5) (Transfactor)
+Zm00001eb433840	B4FRV3	NA	5	Dof zinc finger protein
