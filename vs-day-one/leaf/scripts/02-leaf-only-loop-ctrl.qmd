@@ -13,12 +13,6 @@ execute:
 For html creation purposes I've turned off code execution.
 :::
 
-```{r setup}
-#| include: false
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(root.dir = "/media/mj/ANTIX-LIVE/project1-ctrl-stat/vs-day-one/leaf/scripts")
-```
-
 Built with R version `r getRversion()`
 
 ## Rationale

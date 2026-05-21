@@ -12,7 +12,7 @@ input-data/**
 !/input-data/*/*.qmd
 !/input-data/*/*.sh
 **/rdata-saved/
-**/results/
+**/results*/
 **/plot*
 
 # intermediate and easy to recreate files and dirs
@@ -23,9 +23,15 @@ input-data/**
 **/*.eps
 **/*.zip
 **/.Rproj.user
-**/.RData
+**/*.RData
 **/.Rhistory
 **/.RDataTmp
+**/*.RDa
+
+# logs and data files
+**/*.log
+**/*.csv
+**/*.txt
 
 # graphic files
 **/*.png
