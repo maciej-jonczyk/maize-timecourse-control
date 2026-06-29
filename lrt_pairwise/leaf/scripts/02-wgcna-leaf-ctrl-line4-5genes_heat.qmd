@@ -1,0 +1,240 @@
+---
+title: "Heatmap visualization of WGCNA modules"
+format: html
+date: "2026-05-04"
+bibliography: ../../../refs-stat-anal.bib
+execute:
+  fig-format: png
+  fig.dpi: 300
+---
+
+## Rationale
+
+This script is based on [instructions from DESeq2](https://bioconductor.org/packages//release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#heatmap-of-the-count-matrix).
+
+The aim is to visualize genes from WGCNA modules.
+
+Built with R version `r getRversion()`
+
+## R Preliminaries
+
+Environment cleaning and set-up
+
+```{r setup, include = FALSE}
+library(pheatmap)
+library(DESeq2)
+library(RColorBrewer)
+library(paletteer)
+library(limma)
+```
+
+## Load data
+
+```{r load}
+# counts after vsd
+load('../rdata-saved/wgcna/vsd-mad.RDa')
+
+# modules
+load('../rdata-saved/wgcna/modules4go16.RDa')
+```
+
+
+## Sort
+
+```{r sort}
+coldata_srt = coldata.leaf[order(coldata.leaf$line, coldata.leaf$timepoint),]
+
+vsd.counts_srt <- vsd.counts[, rownames(coldata_srt)]
+```
+
+```{r check}
+# Check if files are in concert
+all(rownames(coldata_srt) %in% colnames(vsd.counts_srt))
+all(rownames(coldata_srt) == colnames(vsd.counts_srt))
+```
+
+## Split counts by module
+
+```{r counts modules}
+# lista tabelek z genami z modułów, posortowane malejąco
+counts_genes <- lapply(names(genes_modules), function(name) {
+  ids_present <- intersect(genes_modules[[name]], rownames(vsd.counts_srt))
+  df <- as.data.frame(vsd.counts_srt[ids_present, , drop = FALSE])
+  df$mean_expr <- rowMeans(df)
+  df <- df[order(df$mean_expr, decreasing = TRUE), , drop = FALSE]
+  df$mean_expr <- NULL
+  df
+})
+names(counts_genes) <- names(genes_modules)
+
+```
+
+
+## Heatmaps
+
+```{r heat}
+png(filename = "grey60.png", width = 2000, height = 1200, res = 300)
+
+# annotation
+annotation_col <- data.frame(
+  line = coldata_srt$line,
+  time = coldata_srt$timepoint
+)
+mat <- counts_genes[['grey60']][1:50, ]
+rownames(annotation_col) <- colnames(mat)
+
+
+# Użycie palety kolorów
+
+# colors
+ann_colors <- list(
+  line = setNames(brewer.pal(length(unique(coldata_srt$line)), "Set2"), unique(coldata_srt$line)),
+  time = setNames(paletteer_d("grDevices::blues9", length(unique(coldata_srt$timepoint))), unique(coldata_srt$timepoint))
+)
+
+#anno = data.frame(group = coldata_srt$group)
+pheatmap(counts_genes[['grey60']][1:50, ], cluster_cols = FALSE, cluster_rows = FALSE, show_rownames = FALSE, show_colnames = FALSE, annotation_col = annotation_col, annotation_colors = ann_colors, border_color = NA)
+dev.off()
+```
+
+```{r func1}
+heat_all <- function(mod_name) {
+  module <- counts_genes[[mod_name]]
+  filename <- paste0(mod_name, "_all.png")
+  png(filename, width=2000, height=1200, res=300)
+  
+  # annotation
+  annotation_col <- data.frame(
+    line = coldata_srt$line,
+    time = coldata_srt$timepoint
+  )
+  
+  rownames(annotation_col) <- colnames(module)
+  
+  # Użycie palety kolorów
+  
+  # colors
+  ann_colors <- list(
+    line = setNames(brewer.pal(length(unique(coldata_srt$line)), "Set2"), unique(coldata_srt$line)),
+    time = setNames(paletteer_d("grDevices::blues9", length(unique(coldata_srt$timepoint))), unique(coldata_srt$timepoint))
+  )
+  
+  #anno = data.frame(group = coldata_srt$group)
+  pheatmap(module[1:50, ], cluster_cols = FALSE, cluster_rows = FALSE, show_rownames = FALSE, show_colnames = FALSE, annotation_col = annotation_col, annotation_colors = ann_colors, border_color = NA)
+  dev.off()
+}
+
+#lapply()
+# heat_ave('white')
+
+lapply(names(counts_genes), heat_all)
+```
+
+# Heatmaps for averaged data
+
+```{r average}
+# varMetadata - description of variables
+metadata=data.frame(labelDescription=c("pooled sample", "letter", "tissue", "line", "hour of pooling", "sample number", "day", "replication", "condition", "id", "reads [million]", "million of reads binned", "chronological time point", "group"), row.names=colnames(coldata_srt))
+
+# metadata
+phenoData=new("AnnotatedDataFrame", data=as.data.frame(coldata_srt), varMetadata=metadata)
+phenoData
+
+## check
+# sampleNames(phenoData)
+# varMetadata(phenoData)
+# head(pData(phenoData))
+
+# make ExpressionSet
+vsd.eset <- ExpressionSet(assayData=vsd.counts_srt, phenoData=phenoData)
+
+# average reps
+average = t(avereps(t(exprs(vsd.eset)), ID = vsd.eset$group)) # output is a matrix
+
+# check
+dim(average)
+dim(vsd.eset)
+
+# Make reduced coldata for plotting
+coldata_ave <- coldata_srt[!duplicated(coldata_srt$group), ]
+```
+
+## Split averaged counts by module
+
+```{r counts modules}
+# lista tabelek z genami z modułów, posortowane malejąco
+counts_genes_ave <- lapply(names(genes_modules), function(name) {
+  ids_present <- intersect(genes_modules[[name]], rownames(average))
+  df <- as.data.frame(average[ids_present, , drop = FALSE])
+  df$mean_expr <- rowMeans(df)
+  df <- df[order(df$mean_expr, decreasing = TRUE), , drop = FALSE]
+  df$mean_expr <- NULL
+  df
+})
+names(counts_genes_ave) <- names(genes_modules)
+
+```
+
+## Heatmaps for averaged data
+
+```{r heat}
+png(filename = "grey60ave.png", width = 2000, height = 1200, res = 300)
+
+# annotation
+annotation_col <- data.frame(
+  line = coldata_ave$line,
+  time = coldata_ave$timepoint
+)
+
+mat <- counts_genes_ave[['grey60']][1:50, ]
+rownames(annotation_col) <- colnames(mat)
+
+# Użycie palety kolorów
+
+# colors
+ann_colors <- list(
+  line = setNames(brewer.pal(length(unique(coldata_ave$line)), "Set2"), unique(coldata_ave$line)),
+  time = setNames(paletteer_d("grDevices::blues9", length(unique(coldata_ave$timepoint))), unique(coldata_ave$timepoint))
+)
+
+#anno = data.frame(group = coldata_ave$group)
+pheatmap(counts_genes_ave[['grey60']][1:50, ], cluster_cols = FALSE, cluster_rows = FALSE, show_rownames = FALSE, show_colnames = FALSE, annotation_col = annotation_col, annotation_colors = ann_colors, border_color = NA)
+dev.off()
+```
+
+## Function to draw heatmaps in one go
+
+```{r func2}
+heat_ave <- function(mod_name) {
+  module <- counts_genes_ave[[mod_name]]
+  filename <- paste0(mod_name, "_ave.png")
+  png(filename, width=2000, height=1200, res=300)
+  
+  # annotation
+  annotation_col <- data.frame(
+    line = coldata_ave$line,
+    time = coldata_ave$timepoint
+  )
+
+  rownames(annotation_col) <- colnames(module)
+  
+  # Użycie palety kolorów
+  
+  # colors
+  ann_colors <- list(
+    line = setNames(brewer.pal(length(unique(coldata_ave$line)), "Set2"), unique(coldata_ave$line)),
+    time = setNames(paletteer_d("grDevices::blues9", length(unique(coldata_ave$timepoint))), unique(coldata_ave$timepoint))
+  )
+  
+  #anno = data.frame(group = coldata_ave$group)
+  pheatmap(module[1:50, ], cluster_cols = FALSE, cluster_rows = FALSE, show_rownames = FALSE, show_colnames = FALSE, annotation_col = annotation_col, annotation_colors = ann_colors, border_color = NA)
+  dev.off()
+}
+
+#lapply()
+# heat_ave('white')
+
+lapply(names(counts_genes_ave), heat_ave)
+```
+
+## References

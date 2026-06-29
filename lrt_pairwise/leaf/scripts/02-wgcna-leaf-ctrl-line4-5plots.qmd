@@ -1,0 +1,66 @@
+---
+title: "Visualization of WGCNA modules"
+format: html
+date: "2026-05-04"
+bibliography: ../../../refs-stat-anal.bib
+execute:
+  fig-format: png
+  fig.dpi: 300
+---
+
+https://peterlangfelder.com/2018/11/25/working-with-categorical-variables/
+
+
+
+## Rationale
+
+The aim is to visualize genes from WGCNA modules and compare modules.
+Preliminary script - plots counts for provided module for all genes, not readable.
+Better script is [02-wgcna-leaf-ctrl-line4-5genes_heat.qmd](02-wgcna-leaf-ctrl-line4-5genes_heat.qmd)
+
+Built with R version `r getRversion()`
+
+## R Preliminaries
+
+Environment cleaning and set-up
+
+```{r setup, include = FALSE}
+library(pheatmap)
+library(DESeq2)
+```
+
+## Load data
+
+```{r load}
+# wgcna results
+load('cons16merged.RDa')
+
+load('../rdata-saved/wgcna/modules4go16.RDa')
+```
+
+## Split counts by module
+
+```{r counts modules}
+# lista tabelek z genami z modułów, posortowane malejąco
+counts_genes <- lapply(names(genes_modules), function(name) {
+  ids_present <- intersect(genes_modules[[name]], rownames(vsd.counts))
+  df <- as.data.frame(vsd.counts[ids_present, , drop = FALSE])
+  df$mean_expr <- rowMeans(df)
+  df <- df[order(df$mean_expr, decreasing = TRUE), , drop = FALSE]
+  df$mean_expr <- NULL
+  df
+})
+names(counts_genes) <- names(genes_modules)
+
+```
+
+
+## Heatmaps
+
+```{r heat}
+png(filename = "yellow.png", width = 2000, height = 1200, res = 300)
+#anno = data.frame(group = coldata.leaf$group)
+pheatmap(counts_genes[['yellow']], cluster_cols = FALSE, cluster_rows = FALSE, show_rownames = FALSE)#, annotation_col = anno)
+dev.off()
+```
+## References
